@@ -17,6 +17,9 @@ namespace travellingdollar.ViewModels
         public DelegateCommand NavigateToSearchNotePageCommand { get; set; }
         public DelegateCommand NavigateToAddNoteCommand { get; set; }
         public DelegateCommand NavigateToStatsViewPageCommand { get; set; }
+
+        
+        
        
 
 
@@ -27,27 +30,19 @@ namespace travellingdollar.ViewModels
             NavigateToAddNoteCommand = new DelegateCommand(NavigateToAddNoteMethod);
             NavigateToStatsViewPageCommand = new DelegateCommand(NavigateTotatsViewPageMethod);
            
+
         }
 
 
         private async void NavigateTotatsViewPageMethod()
         {
-            await navigationService.NavigateAsync("Stats"); //nueva
-         
+            await navigationService.NavigateAsync("Stats"); 
         }
 
         private async void NavigateToAddNoteMethod()
         {
-
-
-            if (App.Current.Properties.ContainsKey("user"))
-            {
-                await navigationService.NavigateAsync("AddNote");
-            }
-            else
-            {
-                await navigationService.NavigateAsync("PhoneNumberPage");
-            }
+                await navigationService.NavigateAsync("AddNote");         
+            
         }
 
         private async void NavigateToSearchNotePageMethod()

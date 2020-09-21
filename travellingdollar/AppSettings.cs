@@ -32,17 +32,20 @@ namespace travellingdollar
         static readonly string defaultSMSEndPoint;
         static readonly string defaultGoogleBaseEndPoint;
         static readonly string defaultNotificationEndPoint;
+        static readonly string BaseAddress;
 
         static AppSettings()
         {
-            defautlSearchEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/notes/";
-            defaultUserEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/users/";
-            defaultUploadsEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/Uploads/";
-            defaultMintsEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/mints/";
+            BaseAddress = "https://travellingdollarwebapi.azurewebsites.net";
+            defautlSearchEndPoint = $"{BaseAddress}/api/notes/";
+            defaultUserEndPoint = $"{BaseAddress}/api/users/";
+            defaultUploadsEndPoint = $"{BaseAddress}/api/Uploads/";
+            defaultMintsEndPoint = $"{BaseAddress}/api/mints/";
+            defaultSMSEndPoint = $"{BaseAddress}/api/sms";
+            defaultNotificationEndPoint = $"{BaseAddress}/api/notifications/";
             defaultCoginitiveServiceEndPoint = "https://southcentralus.api.cognitive.microsoft.com/";
-            defaultSMSEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/sms";
             defaultGoogleBaseEndPoint = "https://maps.googleapis.com/maps/";
-            defaultNotificationEndPoint = "https://travellingdollarwebapi.azurewebsites.net/api/notifications/";
+            
 
 
         }
