@@ -35,6 +35,7 @@ namespace travellingdollar.Droid
 
             Xamarin.Essentials.Platform.Init(this, bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            global::Xamarin.Forms.FormsMaterial.Init(this, bundle);
             UserDialogs.Init(this);
             AppsFlyerLib.Instance.Init(AppSettings.AppsFlyerDevKey, new AppsFlyerConversionDelegate(this), this.Application);
             AppsFlyerLib.Instance.StartTracking(this.Application, AppSettings.AppsFlyerDevKey);
