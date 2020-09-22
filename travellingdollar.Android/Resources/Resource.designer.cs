@@ -17179,19 +17179,19 @@ namespace travellingdollar.Droid
 			public const int roundedbgdark = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int search = 2131165550;
+			public const int screen = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int splash_screen = 2131165551;
+			public const int search = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int tooltip_frame_dark = 2131165552;
+			public const int splash_screen = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int tooltip_frame_light = 2131165553;
+			public const int tooltip_frame_dark = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int usmap_vertical = 2131165554;
+			public const int tooltip_frame_light = 2131165554;
 			
 			static Drawable()
 			{

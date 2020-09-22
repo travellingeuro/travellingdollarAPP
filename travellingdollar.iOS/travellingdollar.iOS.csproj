@@ -204,13 +204,13 @@
     <ImageAsset Include="Assets.xcassets\Launching.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Launching.imageset\usmap_vertical.png">
+    <ImageAsset Include="Assets.xcassets\Launching.imageset\ussplash.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Launching.imageset\usmap_vertical@2x.png">
+    <ImageAsset Include="Assets.xcassets\Launching.imageset\ussplash@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Launching.imageset\usmap_vertical@3x.png">
+    <ImageAsset Include="Assets.xcassets\Launching.imageset\ussplash@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>

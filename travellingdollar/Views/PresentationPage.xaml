@@ -7,7 +7,7 @@
              x:Class="travellingdollar.Views.PresentationPage"                 
              prism:ViewModelLocator.AutowireViewModel="True"
              NavigationPage.HasNavigationBar="False"
-             Padding="20,40,20,20"
+             Padding="20,25,20,20"
               Visual="Material" >
     <ContentPage.Resources>
         <ResourceDictionary>
