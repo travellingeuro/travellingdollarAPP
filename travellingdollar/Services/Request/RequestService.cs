@@ -81,10 +81,12 @@ namespace travellingdollar.Services.Request
 
                 if (response.StatusCode == HttpStatusCode.Forbidden || response.StatusCode == HttpStatusCode.Unauthorized || response.StatusCode == HttpStatusCode.NotFound)
                 {
-                    throw new Exception(content);
+                    //throw new Exception(content);
+                    return;
                 }
 
-                throw new HttpRequestException(content);
+                //throw new HttpRequestException(content);
+                return;
             }
 
 
