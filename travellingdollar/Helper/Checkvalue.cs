@@ -19,10 +19,9 @@ namespace travellingdollar.Helper
                 return false;
             }
 
-            if (serial.Length != 12)
+            if (serial.Length != 11 && serial.Length!=10)
             {
-
-                Message = "Serial Number must be 12 characters long and it must begin with a letter";
+                Message = "Serial Number must be 10 or 11 characters long and it must begin with a letter";
                 return false;
             }
 
@@ -35,6 +34,11 @@ namespace travellingdollar.Helper
             if (!Isfirstlettervalid(serial.ToUpper()))
             {
                 Message = "Not a valid initial letter";
+                return false;
+            }
+            if (!Islastlettervalid(serial))
+            {
+                Message = "Don't forget to include the last letter";
                 return false;
             }
             if (!Isnumbervalid(serial))
@@ -53,31 +57,63 @@ namespace travellingdollar.Helper
 
         public bool Isfirstlettervalid(string serial)
         {
-
-            Dictionary<char, int> dict = new Dictionary<char, int>()
+            //Mints code for the first or second letter
+            Dictionary<char, int> mints = new Dictionary<char, int>()
                                             {
-                                            {'P',1},{'Y',1 } ,{'G',1},{'F',2}, {'X',2},{'E',3},
-                                            {'N','3'},{'D',4},{'M',4},{'V',4},{'U',5},{'L',5},{'T',6},
-                                            {'S',7},{'R',8},{'H',9},{'Z',9},{'W',3}
+                                            {'A',1},{'B',2 } ,{'C',3},{'D',4}, {'E',5},{'F',6},
+                                            {'G',7},{'H',8},{'I',9},{'J',10},{'K',11},
+                                            {'L',12}
                                             };
-            return dict.ContainsKey(serial.ToUpper().ToCharArray().ElementAt(0)) ? true : false;
+            //Year Series code
+            Dictionary<char, int> series = new Dictionary<char, int>()
+                                            {   
+                                            {'A',1996},{'B',1999 } ,{'C',2001},{'D',2003}, {'E',2004},{'F',2003},
+                                            {'G',2004},{'I',2006},{'J',2009},{'K',2006},{'L',2009},
+                                            {'M',2013},{'N',2017} 
+                                            };
+            //store the first two characters of the bill
+            var first = serial.ToUpper().ToCharArray().ElementAt(0);
+            var second = serial.ToUpper().ToCharArray().ElementAt(1);
+
+            //Case starts with one letter only (it's a 1 or 2 dollar bill)- Letter must be in the mints dictionary
+            if(char.IsLetter(first) && char.IsDigit(second))
+            {
+                return mints.ContainsKey(first) ? true : false;
+            }
+            //Case starts with two letters. First must be in series dict and second in mints dict
+            if (char.IsLetter(first)&& char.IsLetter(second))
+            {
+                return series.ContainsKey(first) && mints.ContainsKey(second) ? true : false; 
+
+            }
+
+            return false;
+        }
+
+        public bool Islastlettervalid(string serial)
+        {
+            char lastletter = serial.ToCharArray().Last();
+            return char.IsLetter(lastletter) ? true : false;
         }
 
         public bool Isnumbervalid(string serial)
         {
-            string serialupper = serial.ToUpper();
-            var letter = new int();
-            foreach (char x in serialupper)
+            //strip the last letter
+            var s = serial.Remove(serial.Length-1,1);
+
+            //get the last 8 positions 
+            var serialnumbers = s.Substring(s.Length - 8);
+            //convert to number is posible
+            int numbers;
+            if(!int.TryParse(serialnumbers, out numbers))
             {
-                if (char.IsLetter(x))
-                {
-                    letter = letter + (int)x;
-                    serialupper = serialupper.TrimStart(x);
-                }
+                return false;
             }
-            var sum = serialupper.Sum(c => c - '0');
-            int cheksum = sum + letter;
-            return cheksum % 9 == 0 ? true : false;
+
+            //Check values are between  00000001 and 99840000
+
+            return numbers <= 99840000;
+
         }
     }
 }

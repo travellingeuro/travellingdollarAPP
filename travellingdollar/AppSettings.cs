@@ -36,7 +36,11 @@ namespace travellingdollar
 
         static AppSettings()
         {
+            
             BaseAddress = "https://travellingdollarwebapi.azurewebsites.net";
+
+          
+           
             defautlSearchEndPoint = $"{BaseAddress}/api/notes/";
             defaultUserEndPoint = $"{BaseAddress}/api/users/";
             defaultUploadsEndPoint = $"{BaseAddress}/api/Uploads/";

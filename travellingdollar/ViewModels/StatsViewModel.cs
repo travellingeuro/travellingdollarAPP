@@ -89,7 +89,7 @@ namespace travellingdollar.ViewModels
 
                 if (!string.IsNullOrEmpty(httpEx.Message))
                 {
-                    await dialogService.ShowAlertAsync(
+                    await   dialogService.ShowAlertAsync(
                         string.Format(Resources.HttpRequestExceptionMessage, httpEx.Message),
                         Resources.HttpRequestExceptionTitle,
                         Resources.DialogOk);
