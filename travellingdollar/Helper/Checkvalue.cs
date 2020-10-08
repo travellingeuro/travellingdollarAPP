@@ -36,14 +36,16 @@ namespace travellingdollar.Helper
                 Message = "Not a valid initial letter";
                 return false;
             }
-            if (!Islastlettervalid(serial))
-            {
-                Message = "Don't forget to include the last letter";
-                return false;
-            }
+
+            //No need to checklast letter as some are replaced with the star symbol
+            //if (!Islastlettervalid(serial))
+            //{
+            //    Message = "Don't forget to include the last letter";
+            //    return false;
+            //}
             if (!Isnumbervalid(serial))
             {
-                Message = "Not a valid serial number. Check it again";
+                Message = "Some numbers end with a strar synbol. DO NOT include it";
                 return false;
             }
             return true;
@@ -98,21 +100,34 @@ namespace travellingdollar.Helper
 
         public bool Isnumbervalid(string serial)
         {
-            //strip the last letter
-            var s = serial.Remove(serial.Length-1,1);
+            //get last position
+            var lastposition = serial.ToCharArray().Last();
 
-            //get the last 8 positions 
-            var serialnumbers = s.Substring(s.Length - 8);
+            // last position is letter
+            if(char.IsLetter(lastposition))
+            {
+                serial = serial.Remove(serial.Length - 1, 1);
+            }
+
+            //get the last 8 positions
+            var serialnumbers = serial.Substring(serial.Length - 8);
             //convert to number is posible
             int numbers;
-            if(!int.TryParse(serialnumbers, out numbers))
+            if (!int.TryParse(serialnumbers, out numbers))
             {
                 return false;
             }
-
             //Check values are between  00000001 and 99840000
-
             return numbers <= 99840000;
+
+
+
+
+
+
+
+
+
 
         }
     }

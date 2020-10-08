@@ -23,7 +23,7 @@ namespace travellingdollar.Services.Notification
 
             var uri = builder.ToString();
 
-            return requestService.GetAsync<string>(uri);
+            return requestService.GetAsync<List<Models.Users>>(uri);
         }
     }
 }

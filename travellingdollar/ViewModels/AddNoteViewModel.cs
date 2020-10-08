@@ -39,13 +39,18 @@ namespace travellingdollar.ViewModels
 
 
         //Commands
-        public ICommand FocusOriginCommand { get; set; }
+        
         public DelegateCommand ShowSpecimenCommand { get; set; }
         public DelegateCommand ScanCommand { get; set; }
         public DelegateCommand AddCommand { get; set; }
-        public DelegateCommand ViewMapCommand { get; set; }
-        public DelegateCommand AddAnotherCommand { get; set; }
-        public DelegateCommand NavigateToUploadsCommand { get; set; }
+
+        private DelegateCommand viewmapcommand;
+        public DelegateCommand ViewMapCommand =>
+            viewmapcommand ?? (viewmapcommand = new DelegateCommand(ViewonMapMethod,()=>IsViewonMapEnable).ObservesProperty(()=>IsViewonMapEnable));
+
+        //public DelegateCommand ViewMapCommand { get; private set; }
+        public DelegateCommand AddAnotherCommand { get; private set; }
+        public DelegateCommand NavigateToUploadsCommand { get; private set; }
         public DelegateCommand GoBackCommand { get; set; }
 
 
@@ -77,7 +82,6 @@ namespace travellingdollar.ViewModels
             get { return notevalue; }
             set { SetProperty(ref notevalue, value); }
         }
-
 
         private string email;
         public string Email
@@ -118,7 +122,11 @@ namespace travellingdollar.ViewModels
         public bool IsViewonMapEnable
         {
             get { return isviewonmapenable; }
-            set { SetProperty(ref isviewonmapenable, value); }
+            set
+            { 
+                SetProperty(ref isviewonmapenable, value);
+              
+            }
         }
 
         bool isPickupFocused = true;
@@ -188,8 +196,8 @@ namespace travellingdollar.ViewModels
             this.ShowSpecimenCommand = new DelegateCommand(ShowSpecimenAsyncMethod);
             this.ScanCommand = new DelegateCommand(async () => await ScanAsyncMethod());
             this.AddCommand = new DelegateCommand(AddMethod);
-            this.ViewMapCommand = new DelegateCommand(ViewonMapMethod, CanViewOnMap).ObservesProperty(() => IsViewonMapEnable);
-            this.AddAnotherCommand = new DelegateCommand(AddAnotherMethod, CanViewOnMap).ObservesProperty(() => IsViewonMapEnable);
+            //this.ViewMapCommand = new DelegateCommand(ViewonMapMethod,CanViewOnMap).ObservesProperty(()=>IsViewonMapEnable);
+            this.AddAnotherCommand = new DelegateCommand(AddAnotherMethod,CanViewOnMap).ObservesProperty(() => IsViewonMapEnable);
             this.NavigateToUploadsCommand = new DelegateCommand(NavigateToUploadsMethod, CanViewOnMap).ObservesProperty(() => IsViewonMapEnable);
             this.GoBackCommand = new DelegateCommand(GoBackMethod);
 
@@ -372,7 +380,7 @@ namespace travellingdollar.ViewModels
             if (SerialNumber == null | SelectedPlace == null | Comments == null | Email == null)
 
             {
-                await dialogService.ShowAlertAsync("Review your entry", Resources.ErrorTitle, Resources.DialogOk);
+                await dialogService.ShowAlertAsync("Review your entry. Fill all entries please", Resources.ErrorTitle, Resources.DialogOk);
             }
             else
             {
@@ -447,8 +455,7 @@ namespace travellingdollar.ViewModels
 
             finally
             {
-                IsBusy = false;
-                await NavigationService.NavigateAsync("AddNote");
+                IsBusy = false;                
             }
 
         }
@@ -512,11 +519,10 @@ namespace travellingdollar.ViewModels
                         var newnote = new Notes { SerialNumber = SerialNumber.ToUpper(), Value = (string)NoteValue, MintsId = Id };
                         await addnoteService.PostNote(newnote);
                         await dialogService.ShowAlertAsync(
-                            $"{newnote.Value} € bill {newnote.SerialNumber} Has been added",
-                            "Congratulations",
+                            $" $ {newnote.Value} bill {newnote.SerialNumber} has been added",
+                            "New Bill",
                             "OK");
                         await Addmintupload(Mints.FirstOrDefault());
-
                     }
                 }
 
@@ -563,7 +569,7 @@ namespace travellingdollar.ViewModels
                 var id = notes.FirstOrDefault().Id;
                 Uploads mintsupload = new Uploads
                 {
-                    UsersId = 11,
+                    UsersId = 1,
                     UploadDate = new DateTime(2002, 1, 1),
                     NotesId = id,
                     Longitude = mint.Longitude,
@@ -574,11 +580,11 @@ namespace travellingdollar.ViewModels
                 };
                 await addnoteService.PostUpload(mintsupload);
 
-                await dialogService.ShowAlertAsync(
-                $"New note added in {mintsupload.Address}\n" +
-                $" {mintsupload.Comments}",
-                "Congratulations",
-                "OK");
+                //await dialogService.ShowAlertAsync(
+                //$"New note added in {mintsupload.Address}\n" +
+                //$" {mintsupload.Comments}",
+                //"Congratulations",
+                //"OK");
 
                 await Addclientupload(notes.FirstOrDefault());
             }
@@ -722,6 +728,7 @@ namespace travellingdollar.ViewModels
         {
             try
             {
+                IsViewonMapEnable = true;                
                 IsBusy = true;
                 string client = (string)App.Current.Properties["user"];
                 var user = await userService.GetUserEmail(client);
@@ -741,11 +748,14 @@ namespace travellingdollar.ViewModels
                 await addnoteService.PostUpload(clientupload);
 
                 await dialogService.ShowAlertAsync(
-                    $"{clientupload.Address} € bill {clientupload.Comments} Has been added",
-                    "Congratulations",
+                    $" $ {note.Value} bill in  {clientupload.Address} \n " +
+                    $"with comments: {clientupload.Comments} \n" +
+                    $"Has been added",
+                    "New location for bill",
                     "OK");
 
                 await NotificationService.SendNotification(SerialNumber);
+                
 
             }
             catch (HttpRequestException httpEx)
@@ -778,7 +788,7 @@ namespace travellingdollar.ViewModels
             finally
             {
                 IsBusy = false;
-                IsViewonMapEnable = true;
+                
             }
 
         }
@@ -793,8 +803,7 @@ namespace travellingdollar.ViewModels
  
             //check parameters for "SerialNumber"
             SerialNumber = (string)parameters["SerialNumber"] ?? null;
-
-            IsViewonMapEnable = false;
+         
         }
     }
 

@@ -13,8 +13,14 @@ namespace travellingdollar.Helper
 		{
 			switch (value)
 			{
-                case 5:
-					Image= ImageSource.FromResource("travellingdollar.Images.five.gif");
+                case 1:
+					Image= ImageSource.FromResource("travellingdollar.Images.one.gif");
+					break;
+				case 2:
+					Image = ImageSource.FromResource("travellingdollar.Images.two.gif");
+					break;
+				case 5:
+					Image = ImageSource.FromResource("travellingdollar.Images.five.gif");
 					break;
 				case 10:
 					Image = ImageSource.FromResource("travellingdollar.Images.ten.gif");
@@ -26,13 +32,7 @@ namespace travellingdollar.Helper
 					Image = ImageSource.FromResource("travellingdollar.Images.fifty.gif");
 					break;
 				case 100:
-					Image = ImageSource.FromResource("travellingdollar.Images.onehundred.gif");
-					break;
-				case 200:
-					Image = ImageSource.FromResource("travellingdollar.Images.twohundred.gif");
-					break;
-				case 500:
-					Image = ImageSource.FromResource("travellingdollar.Images.binladen.gif");
+					Image = ImageSource.FromResource("travellingdollar.Images.hundred.gif");
 					break;
 				default:
 					Image = ImageSource.FromResource("travellingdollar.Images.specimen.gif");
