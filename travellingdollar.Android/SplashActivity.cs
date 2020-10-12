@@ -23,7 +23,7 @@ namespace travellingdollar.Droid
         }
         async void SimulateStartup()
         {
-            await Task.Delay(5000);
+            await Task.Delay(2000);
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
         }
     }
