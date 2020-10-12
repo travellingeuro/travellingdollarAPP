@@ -20,8 +20,7 @@ namespace travellingdollar
         //Other services
         const string defaultCognitiveServiceKey = "27a4453a28ab4df8af50d22fed37bcc0";
         const string defaultGooglePlacesApiKey = "AIzaSyAA5f_usWVL2jbldPd4KDKFFZIrMuKYD6U";
-        const string defaultGoogleMapsIosKey = "AIzaSyCgNTU_EGivVGG9uS2FrvkdRinGzAmd99g";
-
+       
 
         //EndPoints
         static readonly string defautlSearchEndPoint;
@@ -111,11 +110,6 @@ namespace travellingdollar
             set => Preferences.Set(nameof(GooglePlacesApiKey), value);
         }
 
-        public static string GoogleMapsIosKey
-        {
-            get => Preferences.Get(nameof(GoogleMapsIosKey), defaultGoogleMapsIosKey);
-            set => Preferences.Set(nameof(GoogleMapsIosKey), value);
-        }
 
         public static string SearchEndPoint
         {
