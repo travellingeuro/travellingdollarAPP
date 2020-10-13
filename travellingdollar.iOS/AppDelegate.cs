@@ -11,7 +11,6 @@ using Google.MobileAds;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
-using AppsFlyerXamarinBinding;
 
 namespace travellingdollar.iOS
 {
@@ -34,8 +33,6 @@ namespace travellingdollar.iOS
             global::Xamarin.Forms.Forms.Init();
             global::Xamarin.Forms.FormsMaterial.Init();
             AppCenter.Start(AppSettings.APPCenteriOSKey, typeof(Analytics), typeof(Crashes));
-            AppsFlyerLib.Shared.AppleAppID = "1511015537";
-            AppsFlyerLib.Shared.AppsFlyerDevKey = AppSettings.AppsFlyerDevKey;
             SfMapsRenderer.Init();
             MobileAds.SharedInstance.Start(CompletionHandler);
             SfGradientViewRenderer.Init();
@@ -44,11 +41,6 @@ namespace travellingdollar.iOS
             SfComboBoxRenderer.Init();
             LoadApplication(new App(new iOSInitializer()));
             return base.FinishedLaunching(app, options);
-        }
-
-        public override void OnActivated(UIApplication application)
-        {
-            AppsFlyerLib.Shared.Start();
         }
 
 

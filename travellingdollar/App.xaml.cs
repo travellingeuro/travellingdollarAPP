@@ -34,7 +34,7 @@ namespace travellingdollar
         protected override async void OnInitialized()
         {
             InitializeComponent();
-            AppCenter.Start("android=93ae46ad-ed4c-40ca-82df-e12c3fdab482;ios=fc96f24b-04b6-490d-a920-7ed0956a5bee",
+            AppCenter.Start($"android={AppSettings.APPCenterAndroidKey};ios={AppSettings.APPCenteriOSKey}",
                 typeof(Analytics), typeof(Crashes));
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
