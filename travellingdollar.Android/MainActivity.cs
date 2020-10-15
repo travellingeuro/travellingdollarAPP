@@ -1,6 +1,7 @@
 ﻿using Acr.UserDialogs;
 using Android.App;
 using Android.Content.PM;
+using Android.Gms.Ads;
 using Android.OS;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
@@ -18,7 +19,8 @@ namespace travellingdollar.Droid
 
         protected override void OnCreate(Bundle bundle)
         {
-            Android.Gms.Ads.MobileAds.Initialize(ApplicationContext, AppSettings.AndroidAdsKey);
+
+            MobileAds.Initialize(ApplicationContext, AppSettings.AndroidAdsKey);
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(AppSettings.SyncfusionKey);
 
 

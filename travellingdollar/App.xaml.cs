@@ -1,4 +1,5 @@
-﻿using Microsoft.AppCenter;
+﻿using MarcTron.Plugin;
+using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Prism;
@@ -14,6 +15,7 @@ using travellingdollar.Services.SMS;
 using travellingdollar.Services.User;
 using travellingdollar.ViewModels;
 using travellingdollar.Views;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -36,6 +38,8 @@ namespace travellingdollar
             InitializeComponent();
             AppCenter.Start($"android={AppSettings.APPCenterAndroidKey};ios={AppSettings.APPCenteriOSKey}",
                 typeof(Analytics), typeof(Crashes));
+
+            CrossMTAdmob.Current.AdsId = DeviceInfo.Platform == DevicePlatform.iOS ? AppSettings.IosAds : AppSettings.AndroidAds;
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }

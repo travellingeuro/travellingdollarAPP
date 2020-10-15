@@ -1,6 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Xamarin.Essentials;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
@@ -18,9 +19,7 @@ namespace travellingdollar.ViewModels
         public DelegateCommand NavigateToAddNoteCommand { get; set; }
         public DelegateCommand NavigateToStatsViewPageCommand { get; set; }
 
-        
-        
-       
+
 
 
         public PresentationPageViewModel(INavigationService navigationService)
@@ -29,7 +28,6 @@ namespace travellingdollar.ViewModels
             NavigateToSearchNotePageCommand = new DelegateCommand(NavigateToSearchNotePageMethod);
             NavigateToAddNoteCommand = new DelegateCommand(NavigateToAddNoteMethod);
             NavigateToStatsViewPageCommand = new DelegateCommand(NavigateTotatsViewPageMethod);
-           
 
         }
 
