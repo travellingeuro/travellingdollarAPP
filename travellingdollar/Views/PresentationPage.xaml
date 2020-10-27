@@ -4,7 +4,8 @@
              xmlns:local="clr-namespace:travellingdollar.MarkupExtension"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
              xmlns:controls="clr-namespace:travellingdollar.Controls"
-             xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+             xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob" 
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="travellingdollar.Views.PresentationPage"                 
              prism:ViewModelLocator.AutowireViewModel="True"
              NavigationPage.HasNavigationBar="False"
@@ -19,7 +20,15 @@
     <StackLayout>
 
         <!--<controls:AdMobView />-->
-        <ads:MTAdView />
+        <ads:MTAdView IsVisible="true" VerticalOptions="StartAndExpand" ComplyFamilyPolicies="True" PersonalizedAds="True">
+            <ads:MTAdView.HeightRequest>
+                <x:OnIdiom>
+                    <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
+                    <x:OnIdiom.Tablet>90</x:OnIdiom.Tablet>
+                    <x:OnIdiom.Desktop>90</x:OnIdiom.Desktop>
+                </x:OnIdiom>
+            </ads:MTAdView.HeightRequest>
+        </ads:MTAdView>
 
         <Image  Aspect="AspectFit"
                 Source ="{local:EmbeddedImage travellingdollar.Images.banner.png}"  
@@ -123,16 +132,26 @@
                         Text="{StaticResource Next}" />
                 </controls:TapAnimationGrid>
                 <BoxView Style="{StaticResource SeparatorStyle}" />
+                
+                
 
             </StackLayout>
         </ScrollView>
 
+        <StackLayout VerticalOptions="EndAndExpand" Orientation="Vertical">
+            <Label
+                HorizontalOptions="Center"
+                Style="{StaticResource LabelStyle}"
+                Text="Show Video Ad">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
 
-        <StackLayout VerticalOptions="EndAndExpand">
 
-            <controls:AdMobView>
+            <controls:AdMobView/>
 
-            </controls:AdMobView>
+
 
         </StackLayout>
 

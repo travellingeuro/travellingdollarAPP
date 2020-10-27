@@ -9,7 +9,7 @@ namespace travellingdollar.Helper
 	public class ImagePicker
 	{
 		public ImageSource Image { get; set; }
-		public ImageSource Imagepicker(int value)
+        public ImageSource Imagepicker(int value)
 		{
 			switch (value)
 			{

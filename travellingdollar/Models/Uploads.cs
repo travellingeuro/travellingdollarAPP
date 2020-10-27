@@ -18,6 +18,8 @@ namespace travellingdollar.Models
         public string Comments { get; set; }
         public string SerialNumber { get; set; }
         public int Value { get; set; }
+        public string Name { get; set; }
+
 
         public Notes Notes { get; set; }
         public Users Users { get; set; }
@@ -29,5 +31,6 @@ namespace travellingdollar.Models
         public DateTime UploadDate { get; set; }
         public string Address { get; set; }
         public string Comments { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -39,11 +39,26 @@ namespace travellingdollar
             AppCenter.Start($"android={AppSettings.APPCenterAndroidKey};ios={AppSettings.APPCenteriOSKey}",
                 typeof(Analytics), typeof(Crashes));
 
-            CrossMTAdmob.Current.AdsId = DeviceInfo.Platform == DevicePlatform.iOS ? AppSettings.IosAds : AppSettings.AndroidAds;
+            CrossMTAdmob.Current.UserPersonalizedAds = true;
+            CrossMTAdmob.Current.ComplyWithFamilyPolicies = true;
+            CrossMTAdmob.Current.UseRestrictedDataProcessing = true;
+            AppSettings.ShowInterstitial = true;
+            CrossMTAdmob.Current.AdsId = DeviceInfo.Platform == DevicePlatform.iOS ? AppSettings.SampleIosAds : AppSettings.SampleAndroidAds;
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
 
+        protected override void OnSleep()
+        {
+            base.OnSleep();
+            AppSettings.ShowInterstitial = true;
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            AppSettings.ShowInterstitial = true;
+        }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             //Pages
@@ -72,4 +87,5 @@ namespace travellingdollar
             
         }
     }
+
 }

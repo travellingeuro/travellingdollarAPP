@@ -5,14 +5,21 @@ namespace travellingdollar
     public static class AppSettings
     {
         //google ads keys
-        const string defaultAndroidAdsKey = "ca-app-pub-9800707284712065~1990749964";
-        const string defaultIosAdsKey = "ca-app-pub-9800707284712065~5378249062";
+        const string defaultAndroidAdsKey = "ca-app-pub-9800707284712065~6081346592";
+        const string defaultIosAdsKey = "ca-app-pub-9800707284712065~1360337106";
 
         //google ads id's
-        const string defaultAndroidAds = "ca-app-pub-9800707284712065/3418493654";
-        const string defaultIosAds = "ca-app-pub-9800707284712065/6044656994";
-        const string defaultSampleAndroidAds = "ca-app-pub-3940256099942544/6300978111";
-        const string defaultSampleIosAds = "ca-app-pub-3940256099942544/2934735716";
+        const string defaultAndroidAds = "ca-app-pub-3940256099942544/6300978111"; //sample
+        const string defaultIosAds = "ca-app-pub-3940256099942544/2934735716"; //sample
+        const string defaultSampleAndroidAds = "ca-app-pub-3940256099942544/6300978111"; //sample
+        const string defaultSampleIosAds = "ca-app-pub-3940256099942544/2934735716"; //sample
+        const string defaultInterstitialAndroid = "ca-app-pub-3940256099942544/8691691433"; //sample
+        const string defaultInterstitialiOS = "ca-app-pub-3940256099942544/5135589807"; //sample
+        const string defaultVideoAndroid = "ca-app-pub-3940256099942544/5224354917"; //sample
+        const string defaultVideoiOS = "ca-app-pub-3940256099942544/1712485313"; //sample
+
+
+
 
         //AppsFlyer DeveloperKey
         const string defaultAppsFlyerDevKey = "mev2fD4zJwnzjJhAGYd3SH";
@@ -26,6 +33,9 @@ namespace travellingdollar
         //APP Center
         const string defaultAPPCenterANDROIDKey = "93ae46ad-ed4c-40ca-82df-e12c3fdab482;ios=fc96f24b-04b6-490d-a920-7ed0956a5bee";
         const string defautlAPPCENTERiOSKey = "fc96f24b-04b6-490d-a920-7ed0956a5bee";
+
+        //Display only one interstitial per sesion
+        const bool defaultshowintertitial = true;
 
         //EndPoints
         static readonly string defautlSearchEndPoint;
@@ -95,12 +105,34 @@ namespace travellingdollar
             set => Preferences.Set(nameof(SampleIosAds), value);
         }
 
+        public static string InterstitialAndroid
+        {
+            get => Preferences.Get(nameof(InterstitialAndroid), defaultInterstitialAndroid);
+            set => Preferences.Set(nameof(InterstitialAndroid), value);
+        }
+
+        public static string InterstitialiOS
+        {
+            get => Preferences.Get(nameof(InterstitialiOS), defaultInterstitialiOS);
+            set => Preferences.Set(nameof(InterstitialiOS), value);
+        }
+
+        public static string RewardVideoAndroid
+        {
+            get => Preferences.Get(nameof(RewardVideoAndroid), defaultVideoAndroid);
+            set => Preferences.Set(nameof(RewardVideoAndroid), value);
+        }
+        public static string RewardVideoiOS
+        {
+            get => Preferences.Get(nameof(RewardVideoiOS), defaultVideoiOS);
+            set => Preferences.Set(nameof(RewardVideoiOS), value);
+        }
+
         public static string AppsFlyerDevKey
         {
             get => Preferences.Get(nameof(AppsFlyerDevKey), defaultAppsFlyerDevKey);
             set => Preferences.Set(nameof(AppsFlyerDevKey), value);
         }
-
 
 
         public static string CognitiveServiceKey
@@ -129,6 +161,12 @@ namespace travellingdollar
         {
             get => Preferences.Get(nameof(APPCenteriOSKey), defautlAPPCENTERiOSKey);
             set => Preferences.Set(nameof(APPCenteriOSKey), value);
+        }
+
+        public static bool ShowInterstitial
+        {
+            get => Preferences.Get(nameof(ShowInterstitial), defaultshowintertitial);
+            set => Preferences.Set(nameof(ShowInterstitial), value);
         }
 
         public static string SearchEndPoint

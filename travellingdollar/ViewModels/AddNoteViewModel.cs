@@ -567,6 +567,7 @@ namespace travellingdollar.ViewModels
                 IsBusy = true;
                 var notes = await addnoteService.GetSearchAsync(SerialNumber);
                 var id = notes.FirstOrDefault().Id;
+                var mintname = new MintPicker();
                 Uploads mintsupload = new Uploads
                 {
                     UsersId = 1,
@@ -576,7 +577,8 @@ namespace travellingdollar.ViewModels
                     Latitude = mint.Latitude,
                     Address = mint.Address,
                     Location = mint.Location,
-                    Comments = mint.Comments
+                    Comments = mint.Comments,
+                    Name = $"Federal Reserve of {mintname.Picker(mint.Id)}"                   
                 };
                 await addnoteService.PostUpload(mintsupload);
 
@@ -740,8 +742,9 @@ namespace travellingdollar.ViewModels
                     NotesId = note.Id,
                     Longitude = (float)SelectedPlace.Longitude,
                     Latitude = (float)SelectedPlace.Latitude,
-                    Address = SelectedPlace.Address,
+                    Address = SelectedPlace.Address,                    
                     Location = SelectedPlace.Location,
+                    Name = SelectedPlace.Name,
                     Comments = Comments
                 };
 
