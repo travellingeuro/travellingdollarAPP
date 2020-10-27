@@ -245,7 +245,8 @@ namespace travellingdollar.ViewModels
                     var listofnotes = await searchNoteService.GetSearchAsync(SerialNumber);
                     var parameters = new NavigationParameters();
                     parameters.Add("Uploads", listofnotes);
-                    await NavigationService.NavigateAsync("MapNotePage", parameters, useModalNavigation: true);
+                    await NavigationService.NavigateAsync("MapNotePage", parameters,true,true);
+                    
                 }
                 else
                 {
@@ -307,7 +308,8 @@ namespace travellingdollar.ViewModels
 
         private async void ShowSpecimenAsyncMethod()
         {
-            await NavigationService.NavigateAsync("SpecimenPage", useModalNavigation: true);
+            var param = new NavigationParameters();
+            await NavigationService.NavigateAsync("SpecimenPage", param, true,true);
         }
 
         private async void NavigateToUploadsMethod()
