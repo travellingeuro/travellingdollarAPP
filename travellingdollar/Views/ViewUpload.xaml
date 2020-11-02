@@ -55,6 +55,7 @@
                     </ads:MTAdView.HeightRequest>
                 </ads:MTAdView>
 
+
                 <StackLayout Orientation="Horizontal">
 
                     <Label
@@ -249,6 +250,13 @@
 
                         </ListView.ItemTemplate>
                     </ListView>
+                    <Label
+                            HorizontalOptions="Center"               
+                            Text="Show Video Ad">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
                 </StackLayout>
             </Grid>
         </Grid>
