@@ -1,8 +1,11 @@
-﻿using Syncfusion.SfMaps.XForms;
+﻿using MarcTron.Plugin;
+using Syncfusion.SfMaps.XForms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using travellingdollar.Helper;
+using Unity;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
@@ -16,6 +19,24 @@ namespace travellingdollar.Views
         public MapNotePage()
         {
             InitializeComponent();
+            if (AppSettings.ShowInterstitial)
+            {
+                var interad = Xamarin.Essentials.DeviceInfo.Platform == DevicePlatform.Android ? AppSettings.InterstitialAndroid : AppSettings.InterstitialiOS;
+                CrossMTAdmob.Current.LoadInterstitial(interad);
+                ShowInterstitial();
+            }
+
+        }
+
+        
+        private void ShowInterstitial()
+        {
+            var show = CrossMTAdmob.Current.IsInterstitialLoaded();
+            if (show)
+            {
+                CrossMTAdmob.Current.ShowInterstitial();
+                AppSettings.ShowInterstitial = false;
+            }
         }
 
         private void searcha_Clicked(object sender, EventArgs e)

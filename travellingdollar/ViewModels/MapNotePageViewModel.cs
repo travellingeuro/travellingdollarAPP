@@ -105,6 +105,7 @@ namespace travellingdollar.ViewModels
 				}
 			}
 		}
+
 		public void OnNavigatedFrom(INavigationParameters parameters)
 		{
 			parameters.Add("Uploads", Uploads);

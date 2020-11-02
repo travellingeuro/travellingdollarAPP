@@ -1,7 +1,9 @@
-﻿using Syncfusion.SfMaps.XForms;
+﻿using MarcTron.Plugin;
+using Syncfusion.SfMaps.XForms;
 using System.Collections.Generic;
 using System.Linq;
 using travellingdollar.Helper;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
@@ -14,7 +16,29 @@ namespace travellingdollar.Views
     {
         public Stats()
         {
-            InitializeComponent();   
+            InitializeComponent();
+            {
+
+                var interad = Xamarin.Essentials.DeviceInfo.Platform == DevicePlatform.Android ? AppSettings.InterstitialAndroid : AppSettings.InterstitialiOS;
+                CrossMTAdmob.Current.LoadInterstitial(interad);
+                ShowInterstitial();
+            }
+        }
+
+        private void ShowInterstitial()
+        {
+            var show = CrossMTAdmob.Current.IsInterstitialLoaded();
+            if (show)
+            {
+                CrossMTAdmob.Current.ShowInterstitial();
+                AppSettings.ShowInterstitial = false;
+                CrossMTAdmob.Current.OnInterstitialClosed += Current_OnInterstitialClosed;
+            }
+        }
+
+        private void Current_OnInterstitialClosed(object sender, System.EventArgs e)
+        {
+            ValuePicker_SelectionChanged(new object(), new Syncfusion.XForms.ComboBox.SelectionChangedEventArgs());
         }
 
         private void ValuePicker_SelectionChanged(object sender, Syncfusion.XForms.ComboBox.SelectionChangedEventArgs e)
