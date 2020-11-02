@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using Microsoft.AppCenter;
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
 using Syncfusion.SfMaps.XForms;
@@ -6,13 +7,17 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using travellingdollar.Controls;
 using travellingdollar.Exceptions;
+using travellingdollar.Helper;
 using travellingdollar.Models;
 using travellingdollar.Services.Dialogs;
 using travellingdollar.Services.SearchNote;
+using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
 namespace travellingdollar.ViewModels
@@ -49,6 +54,7 @@ namespace travellingdollar.ViewModels
             }
         }
 
+
         private int totalnotes;
         public int TotalNotes
         {
@@ -69,6 +75,7 @@ namespace travellingdollar.ViewModels
         {
             this.dialogService = dialogService;
             this.searchNote = searchNote;
+        
         }
 
 
@@ -124,6 +131,7 @@ namespace travellingdollar.ViewModels
         {
             if(NoteValue!=null && Uploads != null)
             {
+                var imagepicker = new ImagePicker();
                 int.TryParse((string)NoteValue, out int value);
                 //selects Uploads with a NoteValue           
                 var selectedvaluenotes = Uploads.Where(v => v.Value == value);
@@ -137,13 +145,54 @@ namespace travellingdollar.ViewModels
                 //transforms to Marker list
                 foreach (var upload in selectedvaluenotes)
                 {
-                    var marker = new MapMarker();
-                    marker.Label = upload.Value.ToString();
-                    marker.Latitude = upload.Latitude.ToString();
-                    marker.Longitude = upload.Longitude.ToString();
+                    var marker = new CustomMarker
+                    {
+                        Latitude = upload.Latitude.ToString(),
+                        Longitude = upload.Longitude.ToString(),
+                        Label = upload.Comments,
+                        Address = upload.Address,
+                        Date = upload.UploadDate,
+                        Image = imagepicker.Imagepicker(upload.Value),
+                        Name = upload.Name
+                    };
+
                     ViewMarkers.Add(marker);
                 }
-            }  
+            }
+
+        }
+
+        private void SetInitialMarkers()
+        {
+           
+            if (Uploads != null)
+            {
+                var imagepicker = new ImagePicker();
+               
+                //show all notes markers in the map
+                //empty ViewMarkers
+                if (ViewMarkers.Any())
+                    {
+                        ViewMarkers.Clear();
+                    }
+                    foreach (var upload in Uploads)
+                    {
+                        var marker = new CustomMarker
+                        {
+                            Latitude = upload.Latitude.ToString(),
+                            Longitude = upload.Longitude.ToString(),
+                            Label = upload.Comments,
+                            Address = upload.Address,
+                            Date = upload.UploadDate,
+                            Image = imagepicker.Imagepicker(upload.Value),
+                            Name = upload.Name
+                        };
+                        ViewMarkers.Add(marker);                
+                    }  
+                                     
+            }
+            
+                      
         }
 
 
@@ -155,7 +204,8 @@ namespace travellingdollar.ViewModels
         public void OnNavigatedTo(INavigationParameters parameters)
         {
             Uploads = Task.Run(GetUploads).Result;
-            TotalNotes= Uploads.Select(s => s.SerialNumber).Distinct().Count();
+            SetInitialMarkers();
+            TotalNotes = Uploads.Select(s => s.SerialNumber).Distinct().Count();
         }
 
 

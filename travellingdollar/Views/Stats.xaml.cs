@@ -14,8 +14,9 @@ namespace travellingdollar.Views
     {
         public Stats()
         {
-            InitializeComponent();
+            InitializeComponent();   
         }
+
         private void ValuePicker_SelectionChanged(object sender, Syncfusion.XForms.ComboBox.SelectionChangedEventArgs e)
         {
 
@@ -45,5 +46,6 @@ namespace travellingdollar.Views
             map.DistanceType = DistanceType.KiloMeter;
 
         }
+
     }
 }
