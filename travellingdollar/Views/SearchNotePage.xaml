@@ -6,7 +6,7 @@
              xmlns:converter="clr-namespace:travellingdollar.Converters" 
              xmlns:controls="clr-namespace:travellingdollar.Controls" 
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms" 
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms" xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              prism:ViewModelLocator.AutowireViewModel="True"
              NavigationPage.HasNavigationBar="False"      
              x:Class="travellingdollar.Views.SearchNotePage"
@@ -35,10 +35,8 @@
         <ControlTemplate>
             <StackLayout Spacing="0" BackgroundColor="{DynamicResource Gray-White}">
 
-                <controls:AdMobView />
-                
-                <StackLayout Orientation="Horizontal">
-                    
+
+                <StackLayout Orientation="Horizontal">                    
                     <Label
                         HorizontalOptions="Start"
                         Style="{StaticResource IconLabelStyle}"
@@ -59,10 +57,22 @@
                     HorizontalOptions="Center" />
                 
                 </StackLayout>
-
+ 
                 <BoxView HeightRequest="1" BackgroundColor="{DynamicResource Gray-200}"/>
 
                 <ContentPresenter />
+                <!--<controls:MTads />-->
+
+                <ads:MTAdView IsVisible="true"  VerticalOptions="StartAndExpand"
+                              ComplyFamilyPolicies="True" PersonalizedAds="True">
+                    <ads:MTAdView.HeightRequest>
+                        <x:OnIdiom>
+                            <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
+                            <x:OnIdiom.Tablet>90</x:OnIdiom.Tablet>
+                            <x:OnIdiom.Desktop>90</x:OnIdiom.Desktop>
+                        </x:OnIdiom>
+                    </ads:MTAdView.HeightRequest>
+                </ads:MTAdView>
 
             </StackLayout>
         </ControlTemplate>
@@ -127,9 +137,11 @@
                         Margin="0,24,0,0"
                         Style="{StaticResource IconButtonStyle}"
                         CornerRadius="4"
-                        Command="{Binding SearchNoteCommand}"/>
-            
+                        Command="{Binding SearchNoteCommand}"/>           
+
+          
         </StackLayout>
+        
 
     </ScrollView>
 

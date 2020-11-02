@@ -4,8 +4,7 @@
              xmlns:local="clr-namespace:travellingdollar.MarkupExtension"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
              xmlns:controls="clr-namespace:travellingdollar.Controls"
-             xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob" 
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="travellingdollar.Views.PresentationPage"                 
              prism:ViewModelLocator.AutowireViewModel="True"
              NavigationPage.HasNavigationBar="False"
@@ -19,7 +18,7 @@
 
     <StackLayout>
 
-        <!--<controls:AdMobView />-->
+        <!--<controls:MTads />-->
         <ads:MTAdView IsVisible="true" VerticalOptions="StartAndExpand" ComplyFamilyPolicies="True" PersonalizedAds="True">
             <ads:MTAdView.HeightRequest>
                 <x:OnIdiom>
@@ -149,7 +148,16 @@
             </Label>
 
 
-            <controls:AdMobView/>
+            <!--<controls:MTads />-->
+            <ads:MTAdView IsVisible="true" VerticalOptions="StartAndExpand" ComplyFamilyPolicies="True" PersonalizedAds="True">
+                <ads:MTAdView.HeightRequest>
+                    <x:OnIdiom>
+                        <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
+                        <x:OnIdiom.Tablet>90</x:OnIdiom.Tablet>
+                        <x:OnIdiom.Desktop>90</x:OnIdiom.Desktop>
+                    </x:OnIdiom>
+                </ads:MTAdView.HeightRequest>
+            </ads:MTAdView>
 
 
 
