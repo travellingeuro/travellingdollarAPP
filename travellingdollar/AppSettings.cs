@@ -31,8 +31,8 @@ namespace travellingdollar
         const string defaultSyncfucionKey = "MzM0MDU4QDMxMzgyZTMzMmUzMGx4cDZKUlNtMDY2K3k4WnBCTlhJWTBiUTNDTFJDcDhieXNRcDZ5NHRIbUU9";
 
         //APP Center
-        const string defaultAPPCenterANDROIDKey = "93ae46ad-ed4c-40ca-82df-e12c3fdab482;ios=fc96f24b-04b6-490d-a920-7ed0956a5bee";
-        const string defautlAPPCENTERiOSKey = "fc96f24b-04b6-490d-a920-7ed0956a5bee";
+        const string defaultAPPCenterANDROIDKey = "fb3f5766-2b1d-420c-9d88-bba2cdf18545;ios=e66422fd-f819-4acd-b6da-3b2ec73fd9c8";
+        const string defautlAPPCENTERiOSKey = "e66422fd-f819-4acd-b6da-3b2ec73fd9c8";
 
         //Display only one interstitial per sesion
         const bool defaultshowintertitial = true;
