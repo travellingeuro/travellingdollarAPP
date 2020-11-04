@@ -37,6 +37,18 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_top = global::travellingdollar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_enter = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_exit = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_in = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_out = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Acr.UserDialogs.Resource.Animation.design_snackbar_in = global::travellingdollar.Droid.Resource.Animation.design_snackbar_in;
@@ -144,6 +156,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.buttonBarNeutralButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Acr.UserDialogs.Resource.Attribute.buttonBarPositiveButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Acr.UserDialogs.Resource.Attribute.buttonBarStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonCompat = global::travellingdollar.Droid.Resource.Attribute.buttonCompat;
 			global::Acr.UserDialogs.Resource.Attribute.buttonGravity = global::travellingdollar.Droid.Resource.Attribute.buttonGravity;
 			global::Acr.UserDialogs.Resource.Attribute.buttonIconDimen = global::travellingdollar.Droid.Resource.Attribute.buttonIconDimen;
 			global::Acr.UserDialogs.Resource.Attribute.buttonPanelSideLayout = global::travellingdollar.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -237,7 +250,15 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.dividerHorizontal = global::travellingdollar.Droid.Resource.Attribute.dividerHorizontal;
 			global::Acr.UserDialogs.Resource.Attribute.dividerPadding = global::travellingdollar.Droid.Resource.Attribute.dividerPadding;
 			global::Acr.UserDialogs.Resource.Attribute.dividerVertical = global::travellingdollar.Droid.Resource.Attribute.dividerVertical;
+			global::Acr.UserDialogs.Resource.Attribute.drawableBottomCompat = global::travellingdollar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableEndCompat = global::travellingdollar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableLeftCompat = global::travellingdollar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableRightCompat = global::travellingdollar.Droid.Resource.Attribute.drawableRightCompat;
 			global::Acr.UserDialogs.Resource.Attribute.drawableSize = global::travellingdollar.Droid.Resource.Attribute.drawableSize;
+			global::Acr.UserDialogs.Resource.Attribute.drawableStartCompat = global::travellingdollar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTint = global::travellingdollar.Droid.Resource.Attribute.drawableTint;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTintMode = global::travellingdollar.Droid.Resource.Attribute.drawableTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTopCompat = global::travellingdollar.Droid.Resource.Attribute.drawableTopCompat;
 			global::Acr.UserDialogs.Resource.Attribute.drawerArrowStyle = global::travellingdollar.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Acr.UserDialogs.Resource.Attribute.dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Acr.UserDialogs.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
@@ -344,6 +365,8 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.lineHeight = global::travellingdollar.Droid.Resource.Attribute.lineHeight;
 			global::Acr.UserDialogs.Resource.Attribute.lineSpacing = global::travellingdollar.Droid.Resource.Attribute.lineSpacing;
 			global::Acr.UserDialogs.Resource.Attribute.listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Acr.UserDialogs.Resource.Attribute.listDividerAlertDialog = global::travellingdollar.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Acr.UserDialogs.Resource.Attribute.listItemLayout = global::travellingdollar.Droid.Resource.Attribute.listItemLayout;
 			global::Acr.UserDialogs.Resource.Attribute.listLayout = global::travellingdollar.Droid.Resource.Attribute.listLayout;
@@ -352,8 +375,10 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Acr.UserDialogs.Resource.Attribute.logo = global::travellingdollar.Droid.Resource.Attribute.logo;
 			global::Acr.UserDialogs.Resource.Attribute.logoDescription = global::travellingdollar.Droid.Resource.Attribute.logoDescription;
 			global::Acr.UserDialogs.Resource.Attribute.materialButtonStyle = global::travellingdollar.Droid.Resource.Attribute.materialButtonStyle;
@@ -395,6 +420,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyle = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleIndicator = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleSmall = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.recyclerViewStyle = global::travellingdollar.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Acr.UserDialogs.Resource.Attribute.reverseLayout = global::travellingdollar.Droid.Resource.Attribute.reverseLayout;
 			global::Acr.UserDialogs.Resource.Attribute.rippleColor = global::travellingdollar.Droid.Resource.Attribute.rippleColor;
 			global::Acr.UserDialogs.Resource.Attribute.scrimAnimationDuration = global::travellingdollar.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -495,6 +521,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Attribute.textColorSearchUrl = global::travellingdollar.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Acr.UserDialogs.Resource.Attribute.textEndPadding = global::travellingdollar.Droid.Resource.Attribute.textEndPadding;
 			global::Acr.UserDialogs.Resource.Attribute.textInputStyle = global::travellingdollar.Droid.Resource.Attribute.textInputStyle;
+			global::Acr.UserDialogs.Resource.Attribute.textLocale = global::travellingdollar.Droid.Resource.Attribute.textLocale;
 			global::Acr.UserDialogs.Resource.Attribute.textStartPadding = global::travellingdollar.Droid.Resource.Attribute.textStartPadding;
 			global::Acr.UserDialogs.Resource.Attribute.theme = global::travellingdollar.Droid.Resource.Attribute.theme;
 			global::Acr.UserDialogs.Resource.Attribute.thickness = global::travellingdollar.Droid.Resource.Attribute.thickness;
@@ -718,6 +745,9 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_top_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Acr.UserDialogs.Resource.Dimension.abc_floating_window_z = global::travellingdollar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_large_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_small_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_padding_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Acr.UserDialogs.Resource.Dimension.abc_panel_menu_list_width = global::travellingdollar.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Acr.UserDialogs.Resource.Dimension.abc_progress_bar_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -889,11 +919,13 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Drawable.abc_action_bar_item_background_material = global::travellingdollar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_borderless_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_colored_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_default_mtrl_shape = global::travellingdollar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -971,6 +1003,14 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Drawable.abc_vector_test = global::travellingdollar.Droid.Resource.Drawable.abc_vector_test;
 			global::Acr.UserDialogs.Resource.Drawable.avd_hide_password = global::travellingdollar.Droid.Resource.Drawable.avd_hide_password;
 			global::Acr.UserDialogs.Resource.Drawable.avd_show_password = global::travellingdollar.Droid.Resource.Drawable.avd_show_password;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_checked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_off_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_on_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Acr.UserDialogs.Resource.Drawable.design_bottom_navigation_item_background = global::travellingdollar.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Acr.UserDialogs.Resource.Drawable.design_fab_background = global::travellingdollar.Droid.Resource.Drawable.design_fab_background;
 			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility = global::travellingdollar.Droid.Resource.Drawable.design_ic_visibility;
@@ -1001,6 +1041,39 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Drawable.roundedbgdark = global::travellingdollar.Droid.Resource.Drawable.roundedbgdark;
 			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_dark = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_light = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Acr.UserDialogs.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Acr.UserDialogs.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Acr.UserDialogs.Resource.Id.action_bar = global::travellingdollar.Droid.Resource.Id.action_bar;
 			global::Acr.UserDialogs.Resource.Id.action_bar_activity_content = global::travellingdollar.Droid.Resource.Id.action_bar_activity_content;
@@ -1035,6 +1108,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.center_horizontal = global::travellingdollar.Droid.Resource.Id.center_horizontal;
 			global::Acr.UserDialogs.Resource.Id.center_vertical = global::travellingdollar.Droid.Resource.Id.center_vertical;
 			global::Acr.UserDialogs.Resource.Id.checkbox = global::travellingdollar.Droid.Resource.Id.checkbox;
+			global::Acr.UserDialogs.Resource.Id.@checked = global::travellingdollar.Droid.Resource.Id.@checked;
 			global::Acr.UserDialogs.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Acr.UserDialogs.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Acr.UserDialogs.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
@@ -1053,6 +1127,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area_stub = global::travellingdollar.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Acr.UserDialogs.Resource.Id.design_menu_item_text = global::travellingdollar.Droid.Resource.Id.design_menu_item_text;
 			global::Acr.UserDialogs.Resource.Id.design_navigation_view = global::travellingdollar.Droid.Resource.Id.design_navigation_view;
+			global::Acr.UserDialogs.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Acr.UserDialogs.Resource.Id.disableHome = global::travellingdollar.Droid.Resource.Id.disableHome;
 			global::Acr.UserDialogs.Resource.Id.edit_query = global::travellingdollar.Droid.Resource.Id.edit_query;
 			global::Acr.UserDialogs.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
@@ -1069,6 +1144,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.forever = global::travellingdollar.Droid.Resource.Id.forever;
 			global::Acr.UserDialogs.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
 			global::Acr.UserDialogs.Resource.Id.ghost_view = global::travellingdollar.Droid.Resource.Id.ghost_view;
+			global::Acr.UserDialogs.Resource.Id.ghost_view_holder = global::travellingdollar.Droid.Resource.Id.ghost_view_holder;
 			global::Acr.UserDialogs.Resource.Id.group_divider = global::travellingdollar.Droid.Resource.Id.group_divider;
 			global::Acr.UserDialogs.Resource.Id.home = global::travellingdollar.Droid.Resource.Id.home;
 			global::Acr.UserDialogs.Resource.Id.homeAsUp = global::travellingdollar.Droid.Resource.Id.homeAsUp;
@@ -1104,6 +1180,8 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.notification_background = global::travellingdollar.Droid.Resource.Id.notification_background;
 			global::Acr.UserDialogs.Resource.Id.notification_main_column = global::travellingdollar.Droid.Resource.Id.notification_main_column;
 			global::Acr.UserDialogs.Resource.Id.notification_main_column_container = global::travellingdollar.Droid.Resource.Id.notification_main_column_container;
+			global::Acr.UserDialogs.Resource.Id.off = global::travellingdollar.Droid.Resource.Id.off;
+			global::Acr.UserDialogs.Resource.Id.on = global::travellingdollar.Droid.Resource.Id.on;
 			global::Acr.UserDialogs.Resource.Id.outline = global::travellingdollar.Droid.Resource.Id.outline;
 			global::Acr.UserDialogs.Resource.Id.parallax = global::travellingdollar.Droid.Resource.Id.parallax;
 			global::Acr.UserDialogs.Resource.Id.parentPanel = global::travellingdollar.Droid.Resource.Id.parentPanel;
@@ -1116,6 +1194,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Acr.UserDialogs.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Acr.UserDialogs.Resource.Id.save_non_transition_alpha = global::travellingdollar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Acr.UserDialogs.Resource.Id.save_overlay_view = global::travellingdollar.Droid.Resource.Id.save_overlay_view;
 			global::Acr.UserDialogs.Resource.Id.screen = global::travellingdollar.Droid.Resource.Id.screen;
 			global::Acr.UserDialogs.Resource.Id.scroll = global::travellingdollar.Droid.Resource.Id.scroll;
 			global::Acr.UserDialogs.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
@@ -1155,6 +1234,11 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.submit_area = global::travellingdollar.Droid.Resource.Id.submit_area;
 			global::Acr.UserDialogs.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
 			global::Acr.UserDialogs.Resource.Id.tabMode = global::travellingdollar.Droid.Resource.Id.tabMode;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Acr.UserDialogs.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Acr.UserDialogs.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -1180,6 +1264,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Id.transition_position = global::travellingdollar.Droid.Resource.Id.transition_position;
 			global::Acr.UserDialogs.Resource.Id.transition_scene_layoutid_cache = global::travellingdollar.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Acr.UserDialogs.Resource.Id.transition_transform = global::travellingdollar.Droid.Resource.Id.transition_transform;
+			global::Acr.UserDialogs.Resource.Id.@unchecked = global::travellingdollar.Droid.Resource.Id.@unchecked;
 			global::Acr.UserDialogs.Resource.Id.uniform = global::travellingdollar.Droid.Resource.Id.uniform;
 			global::Acr.UserDialogs.Resource.Id.unlabeled = global::travellingdollar.Droid.Resource.Id.unlabeled;
 			global::Acr.UserDialogs.Resource.Id.up = global::travellingdollar.Droid.Resource.Id.up;
@@ -1203,6 +1288,13 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::travellingdollar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Acr.UserDialogs.Resource.Integer.show_password_duration = global::travellingdollar.Droid.Resource.Integer.show_password_duration;
 			global::Acr.UserDialogs.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_linear_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear = global::travellingdollar.Droid.Resource.Interpolator.mtrl_linear;
@@ -1235,6 +1327,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Layout.abc_search_view = global::travellingdollar.Droid.Resource.Layout.abc_search_view;
 			global::Acr.UserDialogs.Resource.Layout.abc_select_dialog_material = global::travellingdollar.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Acr.UserDialogs.Resource.Layout.abc_tooltip = global::travellingdollar.Droid.Resource.Layout.abc_tooltip;
+			global::Acr.UserDialogs.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Acr.UserDialogs.Resource.Layout.design_bottom_navigation_item = global::travellingdollar.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Acr.UserDialogs.Resource.Layout.design_bottom_sheet_dialog = global::travellingdollar.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.design_layout_snackbar;
@@ -1494,6 +1587,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
@@ -1618,6 +1712,8 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
@@ -1750,6 +1846,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -1911,11 +2008,21 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTint = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTintMode = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontFamily = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lineHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textLocale = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarDivider = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -1989,14 +2096,18 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -2145,6 +2256,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_color = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Acr.UserDialogs.Resource.Styleable.CompoundButton = global::travellingdollar.Droid.Resource.Styleable.CompoundButton;
 			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_android_button = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonCompat = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTint = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTintMode = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout;
@@ -2375,6 +2487,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Acr.UserDialogs.Resource.Styleable.RecyclerView = global::travellingdollar.Droid.Resource.Styleable.RecyclerView;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_clipToPadding = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_descendantFocusability = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_orientation = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollEnabled = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -2484,11 +2597,14 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColor = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorLink = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textFontWeight = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textSize = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textStyle = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_typeface = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontFamily = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textLocale = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textLocale;
 			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout;
 			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_hint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -2537,6 +2653,7 @@ namespace travellingdollar.Droid
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logo = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logo;
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logoDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_maxButtonHeight = global::travellingdollar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_menu = global::travellingdollar.Droid.Resource.Styleable.Toolbar_menu;
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationContentDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationIcon = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Acr.UserDialogs.Resource.Styleable.Toolbar_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -2668,6 +2785,39 @@ namespace travellingdollar.Droid
 			global::Plugin.Media.Resource.Drawable.notification_template_icon_low_bg = global::travellingdollar.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Plugin.Media.Resource.Drawable.notification_tile_bg = global::travellingdollar.Droid.Resource.Drawable.notification_tile_bg;
 			global::Plugin.Media.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Media.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Plugin.Media.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Plugin.Media.Resource.Id.action_container = global::travellingdollar.Droid.Resource.Id.action_container;
 			global::Plugin.Media.Resource.Id.action_divider = global::travellingdollar.Droid.Resource.Id.action_divider;
@@ -2688,6 +2838,7 @@ namespace travellingdollar.Droid
 			global::Plugin.Media.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Plugin.Media.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Plugin.Media.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Media.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Plugin.Media.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
 			global::Plugin.Media.Resource.Id.fill = global::travellingdollar.Droid.Resource.Id.fill;
 			global::Plugin.Media.Resource.Id.fill_horizontal = global::travellingdollar.Droid.Resource.Id.fill_horizontal;
@@ -2709,6 +2860,11 @@ namespace travellingdollar.Droid
 			global::Plugin.Media.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Plugin.Media.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Plugin.Media.Resource.Id.start = global::travellingdollar.Droid.Resource.Id.start;
+			global::Plugin.Media.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.Media.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.Media.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.Media.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.Media.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Plugin.Media.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Plugin.Media.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Plugin.Media.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -2720,6 +2876,7 @@ namespace travellingdollar.Droid
 			global::Plugin.Media.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::travellingdollar.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::travellingdollar.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Media.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Plugin.Media.Resource.Layout.notification_action = global::travellingdollar.Droid.Resource.Layout.notification_action;
 			global::Plugin.Media.Resource.Layout.notification_action_tombstone = global::travellingdollar.Droid.Resource.Layout.notification_action_tombstone;
 			global::Plugin.Media.Resource.Layout.notification_template_custom_big = global::travellingdollar.Droid.Resource.Layout.notification_template_custom_big;
@@ -5454,6 +5611,18 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_top = global::travellingdollar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_enter = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_exit = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_in = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_out = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_in = global::travellingdollar.Droid.Resource.Animation.design_snackbar_in;
@@ -5533,8 +5702,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::travellingdollar.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::travellingdollar.Droid.Resource.Attribute.behavior_peekHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::travellingdollar.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::travellingdollar.Droid.Resource.Attribute.borderWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::travellingdollar.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::travellingdollar.Droid.Resource.Attribute.borderWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomAppBarStyle = global::travellingdollar.Droid.Resource.Attribute.bottomAppBarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomNavigationStyle = global::travellingdollar.Droid.Resource.Attribute.bottomNavigationStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetDialogTheme = global::travellingdollar.Droid.Resource.Attribute.bottomSheetDialogTheme;
@@ -5553,6 +5722,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarPositiveButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonCompat = global::travellingdollar.Droid.Resource.Attribute.buttonCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonGravity = global::travellingdollar.Droid.Resource.Attribute.buttonGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonIconDimen = global::travellingdollar.Droid.Resource.Attribute.buttonIconDimen;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonPanelSideLayout = global::travellingdollar.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -5600,9 +5770,9 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconVisible = global::travellingdollar.Droid.Resource.Attribute.closeIconVisible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeItemLayout = global::travellingdollar.Droid.Resource.Attribute.closeItemLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseContentDescription = global::travellingdollar.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::travellingdollar.Droid.Resource.Attribute.collapseIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::travellingdollar.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::travellingdollar.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::travellingdollar.Droid.Resource.Attribute.collapseIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::travellingdollar.Droid.Resource.Attribute.color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::travellingdollar.Droid.Resource.Attribute.colorAccent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::travellingdollar.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -5646,10 +5816,18 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerHorizontal = global::travellingdollar.Droid.Resource.Attribute.dividerHorizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerPadding = global::travellingdollar.Droid.Resource.Attribute.dividerPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerVertical = global::travellingdollar.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableBottomCompat = global::travellingdollar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableEndCompat = global::travellingdollar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableLeftCompat = global::travellingdollar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableRightCompat = global::travellingdollar.Droid.Resource.Attribute.drawableRightCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableSize = global::travellingdollar.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableStartCompat = global::travellingdollar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTint = global::travellingdollar.Droid.Resource.Attribute.drawableTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTintMode = global::travellingdollar.Droid.Resource.Attribute.drawableTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTopCompat = global::travellingdollar.Droid.Resource.Attribute.drawableTopCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::travellingdollar.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::travellingdollar.Droid.Resource.Attribute.editTextBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::travellingdollar.Droid.Resource.Attribute.editTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::travellingdollar.Droid.Resource.Attribute.editTextStyle;
@@ -5711,12 +5889,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::travellingdollar.Droid.Resource.Attribute.icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconEndPadding = global::travellingdollar.Droid.Resource.Attribute.iconEndPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconGravity = global::travellingdollar.Droid.Resource.Attribute.iconGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::travellingdollar.Droid.Resource.Attribute.iconifiedByDefault;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconPadding = global::travellingdollar.Droid.Resource.Attribute.iconPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconSize = global::travellingdollar.Droid.Resource.Attribute.iconSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconStartPadding = global::travellingdollar.Droid.Resource.Attribute.iconStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTint = global::travellingdollar.Droid.Resource.Attribute.iconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTintMode = global::travellingdollar.Droid.Resource.Attribute.iconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::travellingdollar.Droid.Resource.Attribute.iconifiedByDefault;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.imageButtonStyle = global::travellingdollar.Droid.Resource.Attribute.imageButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.indeterminateProgressStyle = global::travellingdollar.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::travellingdollar.Droid.Resource.Attribute.initialActivityCount;
@@ -5753,6 +5931,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineHeight = global::travellingdollar.Droid.Resource.Attribute.lineHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineSpacing = global::travellingdollar.Droid.Resource.Attribute.lineSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listDividerAlertDialog = global::travellingdollar.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listItemLayout = global::travellingdollar.Droid.Resource.Attribute.listItemLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listLayout = global::travellingdollar.Droid.Resource.Attribute.listLayout;
@@ -5761,8 +5941,10 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::travellingdollar.Droid.Resource.Attribute.logo;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::travellingdollar.Droid.Resource.Attribute.logoDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonStyle = global::travellingdollar.Droid.Resource.Attribute.materialButtonStyle;
@@ -5804,6 +5986,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.recyclerViewStyle = global::travellingdollar.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.reverseLayout = global::travellingdollar.Droid.Resource.Attribute.reverseLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rippleColor = global::travellingdollar.Droid.Resource.Attribute.rippleColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::travellingdollar.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -5904,6 +6087,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::travellingdollar.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textEndPadding = global::travellingdollar.Droid.Resource.Attribute.textEndPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputStyle = global::travellingdollar.Droid.Resource.Attribute.textInputStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textLocale = global::travellingdollar.Droid.Resource.Attribute.textLocale;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textStartPadding = global::travellingdollar.Droid.Resource.Attribute.textStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::travellingdollar.Droid.Resource.Attribute.theme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::travellingdollar.Droid.Resource.Attribute.thickness;
@@ -5920,9 +6104,9 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargin = global::travellingdollar.Droid.Resource.Attribute.titleMargin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginBottom = global::travellingdollar.Droid.Resource.Attribute.titleMarginBottom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginEnd = global::travellingdollar.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::travellingdollar.Droid.Resource.Attribute.titleMargins;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginStart = global::travellingdollar.Droid.Resource.Attribute.titleMarginStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginTop = global::travellingdollar.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::travellingdollar.Droid.Resource.Attribute.titleMargins;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextAppearance = global::travellingdollar.Droid.Resource.Attribute.titleTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextColor = global::travellingdollar.Droid.Resource.Attribute.titleTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextStyle = global::travellingdollar.Droid.Resource.Attribute.titleTextStyle;
@@ -6054,11 +6238,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::travellingdollar.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::travellingdollar.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_ripple_color = global::travellingdollar.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_text_btn_text_color_selector = global::travellingdollar.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_default_box_stroke_color = global::travellingdollar.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_disabled_color = global::travellingdollar.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::travellingdollar.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::travellingdollar.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_text_btn_text_color_selector = global::travellingdollar.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::travellingdollar.Droid.Resource.Color.notification_action_color_filter;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_icon_bg_color = global::travellingdollar.Droid.Resource.Color.notification_icon_bg_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_material_background_media_default_color = global::travellingdollar.Droid.Resource.Color.notification_material_background_media_default_color;
@@ -6132,6 +6316,9 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_top_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_floating_window_z = global::travellingdollar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_large_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_small_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_padding_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_panel_menu_list_width = global::travellingdollar.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_progress_bar_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -6309,11 +6496,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_action_bar_item_background_material = global::travellingdollar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_borderless_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_colored_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_default_mtrl_shape = global::travellingdollar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -6376,6 +6565,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_track_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_material = global::travellingdollar.Droid.Resource.Drawable.abc_tab_indicator_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_cursor_material = global::travellingdollar.Droid.Resource.Drawable.abc_text_cursor_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::travellingdollar.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::travellingdollar.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
@@ -6383,11 +6577,6 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::travellingdollar.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::travellingdollar.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::travellingdollar.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::travellingdollar.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::travellingdollar.Droid.Resource.Drawable.abc_vector_test;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar1 = global::travellingdollar.Droid.Resource.Drawable.Avatar1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar10 = global::travellingdollar.Droid.Resource.Drawable.Avatar10;
@@ -6421,6 +6610,14 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar9 = global::travellingdollar.Droid.Resource.Drawable.Avatar9;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::travellingdollar.Droid.Resource.Drawable.avd_hide_password;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::travellingdollar.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.clear_button_icon = global::travellingdollar.Droid.Resource.Drawable.clear_button_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_bottom_navigation_item_background = global::travellingdollar.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_fab_background = global::travellingdollar.Droid.Resource.Drawable.design_fab_background;
@@ -6432,9 +6629,9 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_black = global::travellingdollar.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_circle = global::travellingdollar.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_close_circle = global::travellingdollar.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::travellingdollar.Droid.Resource.Drawable.input_layout_drop_down_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::travellingdollar.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::travellingdollar.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::travellingdollar.Droid.Resource.Drawable.input_layout_drop_down_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_snackbar_background = global::travellingdollar.Droid.Resource.Drawable.mtrl_snackbar_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_tabs_default_indicator = global::travellingdollar.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::travellingdollar.Droid.Resource.Drawable.navigation_empty_icon;
@@ -6452,14 +6649,41 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ALT = global::travellingdollar.Droid.Resource.Id.ALT;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::travellingdollar.Droid.Resource.Id.CTRL;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::travellingdollar.Droid.Resource.Id.Itemname;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::travellingdollar.Droid.Resource.Id.META;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SHIFT = global::travellingdollar.Droid.Resource.Id.SHIFT;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action0 = global::travellingdollar.Droid.Resource.Id.action0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar = global::travellingdollar.Droid.Resource.Id.action_bar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_activity_content = global::travellingdollar.Droid.Resource.Id.action_bar_activity_content;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_container = global::travellingdollar.Droid.Resource.Id.action_bar_container;
@@ -6477,11 +6701,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar_stub = global::travellingdollar.Droid.Resource.Id.action_mode_bar_stub;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_close_button = global::travellingdollar.Droid.Resource.Id.action_mode_close_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_text = global::travellingdollar.Droid.Resource.Id.action_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.activity_chooser_view_content = global::travellingdollar.Droid.Resource.Id.activity_chooser_view_content;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.add = global::travellingdollar.Droid.Resource.Id.add;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.alertTitle = global::travellingdollar.Droid.Resource.Id.alertTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.all = global::travellingdollar.Droid.Resource.Id.all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ALT = global::travellingdollar.Droid.Resource.Id.ALT;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.always = global::travellingdollar.Droid.Resource.Id.always;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.async = global::travellingdollar.Droid.Resource.Id.async;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.auto = global::travellingdollar.Droid.Resource.Id.auto;
@@ -6491,9 +6715,9 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_navarea = global::travellingdollar.Droid.Resource.Id.bottomtab_navarea;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_tabbar = global::travellingdollar.Droid.Resource.Id.bottomtab_tabbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_header_text = global::travellingdollar.Droid.Resource.Id.browser_actions_header_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_items = global::travellingdollar.Droid.Resource.Id.browser_actions_menu_items;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_icon = global::travellingdollar.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_text = global::travellingdollar.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_items = global::travellingdollar.Droid.Resource.Id.browser_actions_menu_items;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_view = global::travellingdollar.Droid.Resource.Id.browser_actions_menu_view;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::travellingdollar.Droid.Resource.Id.buttonPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_action = global::travellingdollar.Droid.Resource.Id.cancel_action;
@@ -6501,6 +6725,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_horizontal = global::travellingdollar.Droid.Resource.Id.center_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_vertical = global::travellingdollar.Droid.Resource.Id.center_vertical;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::travellingdollar.Droid.Resource.Id.checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@checked = global::travellingdollar.Droid.Resource.Id.@checked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
@@ -6509,6 +6734,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.content = global::travellingdollar.Droid.Resource.Id.content;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::travellingdollar.Droid.Resource.Id.contentPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.coordinator = global::travellingdollar.Droid.Resource.Id.coordinator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::travellingdollar.Droid.Resource.Id.CTRL;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::travellingdollar.Droid.Resource.Id.custom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::travellingdollar.Droid.Resource.Id.customPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::travellingdollar.Droid.Resource.Id.decor_content_parent;
@@ -6518,6 +6744,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area_stub = global::travellingdollar.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_text = global::travellingdollar.Droid.Resource.Id.design_menu_item_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::travellingdollar.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.disableHome = global::travellingdollar.Droid.Resource.Id.disableHome;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::travellingdollar.Droid.Resource.Id.edit_query;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
@@ -6525,17 +6752,19 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlways = global::travellingdollar.Droid.Resource.Id.enterAlways;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlwaysCollapsed = global::travellingdollar.Droid.Resource.Id.enterAlwaysCollapsed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.exitUntilCollapsed = global::travellingdollar.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::travellingdollar.Droid.Resource.Id.expand_activities_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::travellingdollar.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::travellingdollar.Droid.Resource.Id.expand_activities_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::travellingdollar.Droid.Resource.Id.fill;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.filled = global::travellingdollar.Droid.Resource.Id.filled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_horizontal = global::travellingdollar.Droid.Resource.Id.fill_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_vertical = global::travellingdollar.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.filled = global::travellingdollar.Droid.Resource.Id.filled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::travellingdollar.Droid.Resource.Id.@fixed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_appbar = global::travellingdollar.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_recycler = global::travellingdollar.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::travellingdollar.Droid.Resource.Id.forever;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view = global::travellingdollar.Droid.Resource.Id.ghost_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view_holder = global::travellingdollar.Droid.Resource.Id.ghost_view_holder;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.group_divider = global::travellingdollar.Droid.Resource.Id.group_divider;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::travellingdollar.Droid.Resource.Id.home;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.homeAsUp = global::travellingdollar.Droid.Resource.Id.homeAsUp;
@@ -6545,6 +6774,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.image = global::travellingdollar.Droid.Resource.Id.image;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.info = global::travellingdollar.Droid.Resource.Id.info;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.italic = global::travellingdollar.Droid.Resource.Id.italic;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::travellingdollar.Droid.Resource.Id.Itemname;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.item_touch_helper_previous_elevation = global::travellingdollar.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.labeled = global::travellingdollar.Droid.Resource.Id.labeled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.largeLabel = global::travellingdollar.Droid.Resource.Id.largeLabel;
@@ -6560,6 +6790,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::travellingdollar.Droid.Resource.Id.masked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_actions = global::travellingdollar.Droid.Resource.Id.media_actions;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::travellingdollar.Droid.Resource.Id.message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::travellingdollar.Droid.Resource.Id.META;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.middle = global::travellingdollar.Droid.Resource.Id.middle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::travellingdollar.Droid.Resource.Id.mini;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_child_content_container = global::travellingdollar.Droid.Resource.Id.mtrl_child_content_container;
@@ -6572,6 +6803,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::travellingdollar.Droid.Resource.Id.notification_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::travellingdollar.Droid.Resource.Id.notification_main_column;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::travellingdollar.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.off = global::travellingdollar.Droid.Resource.Id.off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.on = global::travellingdollar.Droid.Resource.Id.on;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.outline = global::travellingdollar.Droid.Resource.Id.outline;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::travellingdollar.Droid.Resource.Id.parallax;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::travellingdollar.Droid.Resource.Id.parentPanel;
@@ -6584,12 +6817,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_non_transition_alpha = global::travellingdollar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_overlay_view = global::travellingdollar.Droid.Resource.Id.save_overlay_view;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::travellingdollar.Droid.Resource.Id.screen;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scroll = global::travellingdollar.Droid.Resource.Id.scroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorDown = global::travellingdollar.Droid.Resource.Id.scrollIndicatorDown;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorUp = global::travellingdollar.Droid.Resource.Id.scrollIndicatorUp;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollView = global::travellingdollar.Droid.Resource.Id.scrollView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_badge = global::travellingdollar.Droid.Resource.Id.search_badge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_bar = global::travellingdollar.Droid.Resource.Id.search_bar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_button = global::travellingdollar.Droid.Resource.Id.search_button;
@@ -6600,14 +6834,16 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_plate = global::travellingdollar.Droid.Resource.Id.search_plate;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_src_text = global::travellingdollar.Droid.Resource.Id.search_src_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_voice_btn = global::travellingdollar.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::travellingdollar.Droid.Resource.Id.select_dialog_listview;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.selected = global::travellingdollar.Droid.Resource.Id.selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::travellingdollar.Droid.Resource.Id.select_dialog_listview;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_appbar = global::travellingdollar.Droid.Resource.Id.shellcontent_appbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_toolbar = global::travellingdollar.Droid.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SHIFT = global::travellingdollar.Droid.Resource.Id.SHIFT;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shortcut = global::travellingdollar.Droid.Resource.Id.shortcut;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showCustom = global::travellingdollar.Droid.Resource.Id.showCustom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showHome = global::travellingdollar.Droid.Resource.Id.showHome;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showTitle = global::travellingdollar.Droid.Resource.Id.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.sliding_tabs = global::travellingdollar.Droid.Resource.Id.sliding_tabs;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.smallLabel = global::travellingdollar.Droid.Resource.Id.smallLabel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::travellingdollar.Droid.Resource.Id.snackbar_action;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_text = global::travellingdollar.Droid.Resource.Id.snackbar_text;
@@ -6623,23 +6859,30 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.stretch = global::travellingdollar.Droid.Resource.Id.stretch;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submenuarrow = global::travellingdollar.Droid.Resource.Id.submenuarrow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submit_area = global::travellingdollar.Droid.Resource.Id.submit_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tabMode = global::travellingdollar.Droid.Resource.Id.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::travellingdollar.Droid.Resource.Id.text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::travellingdollar.Droid.Resource.Id.text2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::travellingdollar.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::travellingdollar.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_helper_text = global::travellingdollar.Droid.Resource.Id.textinput_helper_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::travellingdollar.Droid.Resource.Id.textSpacerNoButtons;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::travellingdollar.Droid.Resource.Id.textSpacerNoTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textStart = global::travellingdollar.Droid.Resource.Id.textStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_password_toggle = global::travellingdollar.Droid.Resource.Id.text_input_password_toggle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::travellingdollar.Droid.Resource.Id.textinput_counter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::travellingdollar.Droid.Resource.Id.textinput_error;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_helper_text = global::travellingdollar.Droid.Resource.Id.textinput_helper_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::travellingdollar.Droid.Resource.Id.time;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::travellingdollar.Droid.Resource.Id.title;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::travellingdollar.Droid.Resource.Id.titleDividerNoCustom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title_template = global::travellingdollar.Droid.Resource.Id.title_template;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.toolbar = global::travellingdollar.Droid.Resource.Id.toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::travellingdollar.Droid.Resource.Id.top;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::travellingdollar.Droid.Resource.Id.topPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::travellingdollar.Droid.Resource.Id.touch_outside;
@@ -6648,6 +6891,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_position = global::travellingdollar.Droid.Resource.Id.transition_position;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_scene_layoutid_cache = global::travellingdollar.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_transform = global::travellingdollar.Droid.Resource.Id.transition_transform;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@unchecked = global::travellingdollar.Droid.Resource.Id.@unchecked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.uniform = global::travellingdollar.Droid.Resource.Id.uniform;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.unlabeled = global::travellingdollar.Droid.Resource.Id.unlabeled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::travellingdollar.Droid.Resource.Id.up;
@@ -6671,6 +6915,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::travellingdollar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::travellingdollar.Droid.Resource.Integer.show_password_duration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_linear_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_linear = global::travellingdollar.Droid.Resource.Interpolator.mtrl_linear;
@@ -6708,6 +6959,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.browser_actions_context_menu_row = global::travellingdollar.Droid.Resource.Layout.browser_actions_context_menu_row;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedImageView = global::travellingdollar.Droid.Resource.Layout.CustomizedImageView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedView = global::travellingdollar.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_navigation_item = global::travellingdollar.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_sheet_dialog = global::travellingdollar.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.design_layout_snackbar;
@@ -6722,6 +6974,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_password_icon = global::travellingdollar.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackTabbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackToolbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FlyoutContent = global::travellingdollar.Droid.Resource.Layout.FlyoutContent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar_include = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar_include;
@@ -6747,12 +7001,14 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.sfcomboBox_layout = global::travellingdollar.Droid.Resource.Layout.sfcomboBox_layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.ShellContent = global::travellingdollar.Droid.Resource.Layout.ShellContent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::travellingdollar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Tabbar = global::travellingdollar.Droid.Resource.Layout.Tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Toolbar = global::travellingdollar.Droid.Resource.Layout.Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_home_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_up_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::travellingdollar.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_mode_done = global::travellingdollar.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::travellingdollar.Droid.Resource.String.abc_activity_chooser_view_see_all;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activitychooserview_choose_application = global::travellingdollar.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::travellingdollar.Droid.Resource.String.abc_activity_chooser_view_see_all;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_off = global::travellingdollar.Droid.Resource.String.abc_capital_off;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_on = global::travellingdollar.Droid.Resource.String.abc_capital_on;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_alt_shortcut_label = global::travellingdollar.Droid.Resource.String.abc_menu_alt_shortcut_label;
@@ -6765,12 +7021,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_space_shortcut_label = global::travellingdollar.Droid.Resource.String.abc_menu_space_shortcut_label;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_sym_shortcut_label = global::travellingdollar.Droid.Resource.String.abc_menu_sym_shortcut_label;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_prepend_shortcut_label = global::travellingdollar.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::travellingdollar.Droid.Resource.String.abc_search_hint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_clear = global::travellingdollar.Droid.Resource.String.abc_searchview_description_clear;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_query = global::travellingdollar.Droid.Resource.String.abc_searchview_description_query;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_search = global::travellingdollar.Droid.Resource.String.abc_searchview_description_search;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_submit = global::travellingdollar.Droid.Resource.String.abc_searchview_description_submit;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_voice = global::travellingdollar.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::travellingdollar.Droid.Resource.String.abc_search_hint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with = global::travellingdollar.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with_application = global::travellingdollar.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_toolbar_collapse_description = global::travellingdollar.Droid.Resource.String.abc_toolbar_collapse_description;
@@ -6801,8 +7057,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::travellingdollar.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Tooltip = global::travellingdollar.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::travellingdollar.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -6851,37 +7107,6 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::travellingdollar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
@@ -6891,6 +7116,39 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
@@ -6898,13 +7156,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -6914,11 +7170,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_V28_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::travellingdollar.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::travellingdollar.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
@@ -6934,13 +7190,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Small = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
@@ -6976,6 +7232,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
@@ -7009,12 +7266,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::travellingdollar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::travellingdollar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::travellingdollar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::travellingdollar.Droid.Resource.Style.TextAppearance_AppCompat;
@@ -7101,58 +7358,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::travellingdollar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::travellingdollar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::travellingdollar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::travellingdollar.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_CompactMenu = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
@@ -7168,6 +7379,54 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::travellingdollar.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_CompactMenu = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::travellingdollar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -7180,13 +7439,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActivityChooserView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Colored = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Small = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
@@ -7237,6 +7496,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -7268,11 +7528,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CardView = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ChipGroup = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Action = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ChipGroup = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_NavigationView = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
@@ -7290,6 +7550,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Support_CoordinatorLayout = global::travellingdollar.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::travellingdollar.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::travellingdollar.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::travellingdollar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_background = global::travellingdollar.Droid.Resource.Styleable.ActionBar_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundSplit = global::travellingdollar.Droid.Resource.Styleable.ActionBar_backgroundSplit;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundStacked = global::travellingdollar.Droid.Resource.Styleable.ActionBar_backgroundStacked;
@@ -7319,8 +7581,6 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitleTextStyle = global::travellingdollar.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_title = global::travellingdollar.Droid.Resource.Styleable.ActionBar_title;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_titleTextStyle = global::travellingdollar.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::travellingdollar.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::travellingdollar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView = global::travellingdollar.Droid.Resource.Styleable.ActionMenuItemView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView_android_minWidth = global::travellingdollar.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuView = global::travellingdollar.Droid.Resource.Styleable.ActionMenuView;
@@ -7359,20 +7619,20 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::travellingdollar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::travellingdollar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScroll = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates = global::travellingdollar.Droid.Resource.Styleable.AppBarLayoutStates;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::travellingdollar.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::travellingdollar.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_liftable = global::travellingdollar.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_lifted = global::travellingdollar.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_expanded;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScroll = global::travellingdollar.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::travellingdollar.Droid.Resource.Styleable.AppCompatImageView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::travellingdollar.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -7398,11 +7658,21 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTint = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTintMode = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontFamily = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lineHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textLocale = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarDivider = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -7468,22 +7738,26 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerVertical = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextColor = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -7565,6 +7839,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingRight = global::travellingdollar.Droid.Resource.Styleable.CardView_contentPaddingRight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingTop = global::travellingdollar.Droid.Resource.Styleable.CardView_contentPaddingTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip = global::travellingdollar.Droid.Resource.Styleable.Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup = global::travellingdollar.Droid.Resource.Styleable.ChipGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_checkedChip = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacing = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingVertical = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleLine = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleSelection = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_checkable = global::travellingdollar.Droid.Resource.Styleable.Chip_android_checkable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_ellipsize = global::travellingdollar.Droid.Resource.Styleable.Chip_android_ellipsize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_maxWidth = global::travellingdollar.Droid.Resource.Styleable.Chip_android_maxWidth;
@@ -7599,13 +7880,6 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_showMotionSpec = global::travellingdollar.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textEndPadding = global::travellingdollar.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textStartPadding = global::travellingdollar.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup = global::travellingdollar.Droid.Resource.Styleable.ChipGroup;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_checkedChip = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacing = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingVertical = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleLine = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleSelection = global::travellingdollar.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -7617,26 +7891,26 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_title = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::travellingdollar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_alpha = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_alpha = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_color = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton = global::travellingdollar.Droid.Resource.Styleable.CompoundButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_android_button = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonCompat = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTint = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTintMode = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_keylines = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
@@ -7645,6 +7919,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme = global::travellingdollar.Droid.Resource.Styleable.DesignTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::travellingdollar.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetStyle = global::travellingdollar.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
@@ -7660,6 +7935,8 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabCustomSize = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
@@ -7671,18 +7948,10 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_showMotionSpec = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::travellingdollar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout = global::travellingdollar.Droid.Resource.Styleable.FlowLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_itemSpacing = global::travellingdollar.Droid.Resource.Styleable.FlowLayout_itemSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_lineSpacing = global::travellingdollar.Droid.Resource.Styleable.FlowLayout_lineSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily = global::travellingdollar.Droid.Resource.Styleable.FontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_font = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontStyle = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
@@ -7694,11 +7963,20 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontWeight = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_ttcIndex = global::travellingdollar.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::travellingdollar.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout = global::travellingdollar.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::travellingdollar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::travellingdollar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::travellingdollar.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor = global::travellingdollar.Droid.Resource.Styleable.GradientColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_color = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_offset = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerColor = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_centerColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerX = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_centerX;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerY = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_centerY;
@@ -7711,9 +7989,6 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startY = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_tileMode = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_type = global::travellingdollar.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_color = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_offset = global::travellingdollar.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -7722,13 +7997,13 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_divider = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_divider;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::travellingdollar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::travellingdollar.Droid.Resource.Styleable.ListPopupWindow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::travellingdollar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::travellingdollar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
@@ -7840,15 +8115,16 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::travellingdollar.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::travellingdollar.Droid.Resource.Styleable.NavigationView_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow = global::travellingdollar.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::travellingdollar.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::travellingdollar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::travellingdollar.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::travellingdollar.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::travellingdollar.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::travellingdollar.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::travellingdollar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::travellingdollar.Droid.Resource.Styleable.RecycleListView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView = global::travellingdollar.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_clipToPadding = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_descendantFocusability = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_orientation = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollEnabled = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -7883,12 +8159,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::travellingdollar.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::travellingdollar.Droid.Resource.Styleable.SearchView_voiceIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar = global::travellingdollar.Droid.Resource.Styleable.Snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarButtonStyle = global::travellingdollar.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarStyle = global::travellingdollar.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::travellingdollar.Droid.Resource.Styleable.SnackbarLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::travellingdollar.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::travellingdollar.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::travellingdollar.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarButtonStyle = global::travellingdollar.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarStyle = global::travellingdollar.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::travellingdollar.Droid.Resource.Styleable.Spinner;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::travellingdollar.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::travellingdollar.Droid.Resource.Styleable.Spinner_android_entries;
@@ -7896,14 +8172,14 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_prompt = global::travellingdollar.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Spinner_popupTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem = global::travellingdollar.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem_android_drawable = global::travellingdollar.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_constantSize = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_dither = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_dither;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_variablePadding = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_visible = global::travellingdollar.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem = global::travellingdollar.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem_android_drawable = global::travellingdollar.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::travellingdollar.Droid.Resource.Styleable.SwitchCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::travellingdollar.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::travellingdollar.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -7958,11 +8234,14 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColor = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorLink = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textFontWeight = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textSize = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textStyle = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_typeface = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontFamily = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textLocale = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textLocale;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -8011,6 +8290,7 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logo = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logo;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logoDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_maxButtonHeight = global::travellingdollar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_menu = global::travellingdollar.Droid.Resource.Styleable.Toolbar_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationContentDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationIcon = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -8021,17 +8301,12 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargin = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMargin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginBottom = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginEnd = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMargins;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginStart = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMarginStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleMargins;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::travellingdollar.Droid.Resource.Styleable.Toolbar_titleTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::travellingdollar.Droid.Resource.Styleable.View;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::travellingdollar.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::travellingdollar.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::travellingdollar.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::travellingdollar.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::travellingdollar.Droid.Resource.Styleable.View_theme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::travellingdollar.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::travellingdollar.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::travellingdollar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
@@ -8040,6 +8315,11 @@ namespace travellingdollar.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::travellingdollar.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::travellingdollar.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::travellingdollar.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::travellingdollar.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::travellingdollar.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::travellingdollar.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::travellingdollar.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::travellingdollar.Droid.Resource.Styleable.View_theme;
 			global::Com.Syncfusion.Maps.Resource.Animation.Scale_in = global::travellingdollar.Droid.Resource.Animation.Scale_in;
 			global::Com.Syncfusion.Maps.Resource.Animation.Scale_out = global::travellingdollar.Droid.Resource.Animation.Scale_out;
 			global::Com.Syncfusion.Maps.Resource.Attribute.bubbleAlpha = global::travellingdollar.Droid.Resource.Attribute.bubbleAlpha;
@@ -8179,6 +8459,39 @@ namespace travellingdollar.Droid
 			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::travellingdollar.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::travellingdollar.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Essentials.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.action_container = global::travellingdollar.Droid.Resource.Id.action_container;
 			global::Xamarin.Essentials.Resource.Id.action_divider = global::travellingdollar.Droid.Resource.Id.action_divider;
@@ -8199,6 +8512,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Essentials.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Essentials.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Essentials.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
 			global::Xamarin.Essentials.Resource.Id.fill = global::travellingdollar.Droid.Resource.Id.fill;
 			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::travellingdollar.Droid.Resource.Id.fill_horizontal;
@@ -8220,6 +8534,11 @@ namespace travellingdollar.Droid
 			global::Xamarin.Essentials.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Xamarin.Essentials.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Xamarin.Essentials.Resource.Id.start = global::travellingdollar.Droid.Resource.Id.start;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Essentials.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -8231,6 +8550,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::travellingdollar.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::travellingdollar.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Essentials.Resource.Layout.notification_action = global::travellingdollar.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::travellingdollar.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::travellingdollar.Droid.Resource.Layout.notification_template_custom_big;
@@ -8308,6 +8628,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_slide_out_top = global::travellingdollar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_tooltip_enter = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_tooltip_exit = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.design_bottom_sheet_slide_in = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.design_bottom_sheet_slide_out = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.design_snackbar_in = global::travellingdollar.Droid.Resource.Animation.design_snackbar_in;
@@ -8407,6 +8739,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonBarStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonCompat = global::travellingdollar.Droid.Resource.Attribute.buttonCompat;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonGravity = global::travellingdollar.Droid.Resource.Attribute.buttonGravity;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonIconDimen = global::travellingdollar.Droid.Resource.Attribute.buttonIconDimen;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.buttonPanelSideLayout = global::travellingdollar.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -8501,7 +8834,15 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.dividerHorizontal = global::travellingdollar.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.dividerPadding = global::travellingdollar.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.dividerVertical = global::travellingdollar.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableBottomCompat = global::travellingdollar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableEndCompat = global::travellingdollar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableLeftCompat = global::travellingdollar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableRightCompat = global::travellingdollar.Droid.Resource.Attribute.drawableRightCompat;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableSize = global::travellingdollar.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableStartCompat = global::travellingdollar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableTint = global::travellingdollar.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableTintMode = global::travellingdollar.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawableTopCompat = global::travellingdollar.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.drawerArrowStyle = global::travellingdollar.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
@@ -8608,6 +8949,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.lineHeight = global::travellingdollar.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.lineSpacing = global::travellingdollar.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listDividerAlertDialog = global::travellingdollar.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listItemLayout = global::travellingdollar.Droid.Resource.Attribute.listItemLayout;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listLayout = global::travellingdollar.Droid.Resource.Attribute.listLayout;
@@ -8616,8 +8959,10 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.logo = global::travellingdollar.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.logoDescription = global::travellingdollar.Droid.Resource.Attribute.logoDescription;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.materialButtonStyle = global::travellingdollar.Droid.Resource.Attribute.materialButtonStyle;
@@ -8664,6 +9009,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.ratingBarStyle = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.ratingBarStyleIndicator = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.ratingBarStyleSmall = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.recyclerViewStyle = global::travellingdollar.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.reverseLayout = global::travellingdollar.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.rippleColor = global::travellingdollar.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.scrimAnimationDuration = global::travellingdollar.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -8765,6 +9111,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.textColorSearchUrl = global::travellingdollar.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.textEndPadding = global::travellingdollar.Droid.Resource.Attribute.textEndPadding;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.textInputStyle = global::travellingdollar.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Material.Android.Resource.Attribute.textLocale = global::travellingdollar.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.textStartPadding = global::travellingdollar.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.theme = global::travellingdollar.Droid.Resource.Attribute.theme;
 			global::Xamarin.Forms.Material.Android.Resource.Attribute.thickness = global::travellingdollar.Droid.Resource.Attribute.thickness;
@@ -8990,6 +9337,9 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_floating_window_z = global::travellingdollar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_list_item_height_large_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_list_item_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_list_item_height_small_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_panel_menu_list_width = global::travellingdollar.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Xamarin.Forms.Material.Android.Resource.Dimension.abc_progress_bar_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -9165,11 +9515,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_action_bar_item_background_material = global::travellingdollar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_borderless_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_check_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_check_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_colored_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::travellingdollar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_radio_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_radio_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -9247,6 +9599,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.abc_vector_test = global::travellingdollar.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.avd_hide_password = global::travellingdollar.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.avd_show_password = global::travellingdollar.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_checkbox_checked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_radio_off_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_radio_on_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.Material.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.design_bottom_navigation_item_background = global::travellingdollar.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.design_fab_background = global::travellingdollar.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.design_ic_visibility = global::travellingdollar.Droid.Resource.Drawable.design_ic_visibility;
@@ -9275,6 +9635,39 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.tooltip_frame_dark = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Material.Android.Resource.Drawable.tooltip_frame_light = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.Material.Android.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Forms.Material.Android.Resource.Id.action0 = global::travellingdollar.Droid.Resource.Id.action0;
 			global::Xamarin.Forms.Material.Android.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Xamarin.Forms.Material.Android.Resource.Id.action_bar = global::travellingdollar.Droid.Resource.Id.action_bar;
@@ -9313,6 +9706,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.center_horizontal = global::travellingdollar.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Material.Android.Resource.Id.center_vertical = global::travellingdollar.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Material.Android.Resource.Id.checkbox = global::travellingdollar.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Material.Android.Resource.Id.@checked = global::travellingdollar.Droid.Resource.Id.@checked;
 			global::Xamarin.Forms.Material.Android.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Material.Android.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Material.Android.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
@@ -9331,6 +9725,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.design_menu_item_action_area_stub = global::travellingdollar.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.Forms.Material.Android.Resource.Id.design_menu_item_text = global::travellingdollar.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.Forms.Material.Android.Resource.Id.design_navigation_view = global::travellingdollar.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Material.Android.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Material.Android.Resource.Id.disableHome = global::travellingdollar.Droid.Resource.Id.disableHome;
 			global::Xamarin.Forms.Material.Android.Resource.Id.edit_query = global::travellingdollar.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Material.Android.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
@@ -9350,6 +9745,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.forever = global::travellingdollar.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Material.Android.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Material.Android.Resource.Id.ghost_view = global::travellingdollar.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Material.Android.Resource.Id.ghost_view_holder = global::travellingdollar.Droid.Resource.Id.ghost_view_holder;
 			global::Xamarin.Forms.Material.Android.Resource.Id.group_divider = global::travellingdollar.Droid.Resource.Id.group_divider;
 			global::Xamarin.Forms.Material.Android.Resource.Id.home = global::travellingdollar.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Material.Android.Resource.Id.homeAsUp = global::travellingdollar.Droid.Resource.Id.homeAsUp;
@@ -9388,6 +9784,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.notification_background = global::travellingdollar.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Material.Android.Resource.Id.notification_main_column = global::travellingdollar.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Material.Android.Resource.Id.notification_main_column_container = global::travellingdollar.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Material.Android.Resource.Id.off = global::travellingdollar.Droid.Resource.Id.off;
+			global::Xamarin.Forms.Material.Android.Resource.Id.on = global::travellingdollar.Droid.Resource.Id.on;
 			global::Xamarin.Forms.Material.Android.Resource.Id.outline = global::travellingdollar.Droid.Resource.Id.outline;
 			global::Xamarin.Forms.Material.Android.Resource.Id.parallax = global::travellingdollar.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Material.Android.Resource.Id.parentPanel = global::travellingdollar.Droid.Resource.Id.parentPanel;
@@ -9400,6 +9798,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Material.Android.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Xamarin.Forms.Material.Android.Resource.Id.save_non_transition_alpha = global::travellingdollar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Material.Android.Resource.Id.save_overlay_view = global::travellingdollar.Droid.Resource.Id.save_overlay_view;
 			global::Xamarin.Forms.Material.Android.Resource.Id.screen = global::travellingdollar.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Material.Android.Resource.Id.scroll = global::travellingdollar.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Material.Android.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
@@ -9425,6 +9824,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.showCustom = global::travellingdollar.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Material.Android.Resource.Id.showHome = global::travellingdollar.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Material.Android.Resource.Id.showTitle = global::travellingdollar.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Material.Android.Resource.Id.sliding_tabs = global::travellingdollar.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Material.Android.Resource.Id.smallLabel = global::travellingdollar.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Material.Android.Resource.Id.snackbar_action = global::travellingdollar.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Material.Android.Resource.Id.snackbar_text = global::travellingdollar.Droid.Resource.Id.snackbar_text;
@@ -9442,6 +9842,11 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.submit_area = global::travellingdollar.Droid.Resource.Id.submit_area;
 			global::Xamarin.Forms.Material.Android.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
 			global::Xamarin.Forms.Material.Android.Resource.Id.tabMode = global::travellingdollar.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Material.Android.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.Material.Android.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.Material.Android.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.Material.Android.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.Material.Android.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Forms.Material.Android.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Material.Android.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Material.Android.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -9458,6 +9863,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.title = global::travellingdollar.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Material.Android.Resource.Id.titleDividerNoCustom = global::travellingdollar.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.Forms.Material.Android.Resource.Id.title_template = global::travellingdollar.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Material.Android.Resource.Id.toolbar = global::travellingdollar.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Material.Android.Resource.Id.top = global::travellingdollar.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Material.Android.Resource.Id.topPanel = global::travellingdollar.Droid.Resource.Id.topPanel;
 			global::Xamarin.Forms.Material.Android.Resource.Id.touch_outside = global::travellingdollar.Droid.Resource.Id.touch_outside;
@@ -9466,6 +9872,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.transition_position = global::travellingdollar.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Material.Android.Resource.Id.transition_scene_layoutid_cache = global::travellingdollar.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Material.Android.Resource.Id.transition_transform = global::travellingdollar.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Material.Android.Resource.Id.@unchecked = global::travellingdollar.Droid.Resource.Id.@unchecked;
 			global::Xamarin.Forms.Material.Android.Resource.Id.uniform = global::travellingdollar.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Material.Android.Resource.Id.unlabeled = global::travellingdollar.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Material.Android.Resource.Id.up = global::travellingdollar.Droid.Resource.Id.up;
@@ -9489,6 +9896,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::travellingdollar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Material.Android.Resource.Integer.show_password_duration = global::travellingdollar.Droid.Resource.Integer.show_password_duration;
 			global::Xamarin.Forms.Material.Android.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Material.Android.Resource.Interpolator.fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Xamarin.Forms.Material.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Material.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Xamarin.Forms.Material.Android.Resource.Interpolator.mtrl_linear = global::travellingdollar.Droid.Resource.Interpolator.mtrl_linear;
@@ -9522,6 +9936,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Layout.abc_select_dialog_material = global::travellingdollar.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.abc_tooltip = global::travellingdollar.Droid.Resource.Layout.abc_tooltip;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.BottomTabLayout = global::travellingdollar.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Material.Android.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_bottom_navigation_item = global::travellingdollar.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_bottom_sheet_dialog = global::travellingdollar.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.design_layout_snackbar;
@@ -9536,6 +9951,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_navigation_menu = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_navigation_menu_item = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.design_text_input_password_icon = global::travellingdollar.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Material.Android.Resource.Layout.FallbackTabbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Material.Android.Resource.Layout.FallbackToolbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.FlyoutContent = global::travellingdollar.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.MaterialPickerTextInput = global::travellingdollar.Droid.Resource.Layout.MaterialPickerTextInput;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.mtrl_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar;
@@ -9561,7 +9978,9 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Layout.select_dialog_singlechoice_material = global::travellingdollar.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.ShellContent = global::travellingdollar.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::travellingdollar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Material.Android.Resource.Layout.Tabbar = global::travellingdollar.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Material.Android.Resource.Layout.TextInputLayoutFilledBox = global::travellingdollar.Droid.Resource.Layout.TextInputLayoutFilledBox;
+			global::Xamarin.Forms.Material.Android.Resource.Layout.Toolbar = global::travellingdollar.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Material.Android.Resource.String.abc_action_bar_home_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Material.Android.Resource.String.abc_action_bar_up_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Material.Android.Resource.String.abc_action_menu_overflow_description = global::travellingdollar.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -9793,6 +10212,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
@@ -9927,6 +10347,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Material.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
@@ -10059,6 +10481,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Material.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -10229,11 +10652,21 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTextView_textLocale = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -10307,14 +10740,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -10463,6 +10900,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.ColorStateListItem_android_color = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.CompoundButton = global::travellingdollar.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.CompoundButton_android_button = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.CompoundButton_buttonCompat = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.CompoundButton_buttonTint = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.CoordinatorLayout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout;
@@ -10682,6 +11120,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecyclerView = global::travellingdollar.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecyclerView_android_clipToPadding = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecyclerView_android_orientation = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -10793,11 +11232,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textColor = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textFontWeight = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textSize = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_textStyle = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_android_typeface = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_fontFamily = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextAppearance_textLocale = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textLocale;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextInputLayout = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextInputLayout_android_hint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -10846,6 +11288,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_logo = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logo;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_logoDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::travellingdollar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_menu = global::travellingdollar.Droid.Resource.Styleable.Toolbar_menu;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_navigationIcon = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Xamarin.Forms.Material.Android.Resource.Styleable.Toolbar_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -10887,6 +11330,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_top = global::travellingdollar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_enter = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_exit = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::travellingdollar.Droid.Resource.Animation.design_snackbar_in;
@@ -10986,6 +11441,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonCompat = global::travellingdollar.Droid.Resource.Attribute.buttonCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonGravity = global::travellingdollar.Droid.Resource.Attribute.buttonGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonIconDimen = global::travellingdollar.Droid.Resource.Attribute.buttonIconDimen;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::travellingdollar.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -11080,7 +11536,15 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerHorizontal = global::travellingdollar.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerPadding = global::travellingdollar.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerVertical = global::travellingdollar.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableBottomCompat = global::travellingdollar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableEndCompat = global::travellingdollar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableLeftCompat = global::travellingdollar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableRightCompat = global::travellingdollar.Droid.Resource.Attribute.drawableRightCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableSize = global::travellingdollar.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableStartCompat = global::travellingdollar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTint = global::travellingdollar.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTintMode = global::travellingdollar.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTopCompat = global::travellingdollar.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::travellingdollar.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
@@ -11187,6 +11651,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineHeight = global::travellingdollar.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineSpacing = global::travellingdollar.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::travellingdollar.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::travellingdollar.Droid.Resource.Attribute.listItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listLayout = global::travellingdollar.Droid.Resource.Attribute.listLayout;
@@ -11195,8 +11661,10 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::travellingdollar.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::travellingdollar.Droid.Resource.Attribute.logoDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonStyle = global::travellingdollar.Droid.Resource.Attribute.materialButtonStyle;
@@ -11238,6 +11706,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.recyclerViewStyle = global::travellingdollar.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::travellingdollar.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rippleColor = global::travellingdollar.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::travellingdollar.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -11339,6 +11808,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::travellingdollar.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::travellingdollar.Droid.Resource.Attribute.textEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::travellingdollar.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textLocale = global::travellingdollar.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::travellingdollar.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::travellingdollar.Droid.Resource.Attribute.theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::travellingdollar.Droid.Resource.Attribute.thickness;
@@ -11563,6 +12033,9 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_floating_window_z = global::travellingdollar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_large_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_small_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::travellingdollar.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_progress_bar_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -11738,11 +12211,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::travellingdollar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::travellingdollar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -11820,6 +12295,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::travellingdollar.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::travellingdollar.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::travellingdollar.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_checked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_off_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::travellingdollar.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::travellingdollar.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::travellingdollar.Droid.Resource.Drawable.design_ic_visibility;
@@ -11846,6 +12329,39 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.action0 = global::travellingdollar.Droid.Resource.Id.action0;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar = global::travellingdollar.Droid.Resource.Id.action_bar;
@@ -11884,6 +12400,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::travellingdollar.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::travellingdollar.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::travellingdollar.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::travellingdollar.Droid.Resource.Id.@checked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
@@ -11902,6 +12419,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::travellingdollar.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_text = global::travellingdollar.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_navigation_view = global::travellingdollar.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.disableHome = global::travellingdollar.Droid.Resource.Id.disableHome;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.edit_query = global::travellingdollar.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
@@ -11921,6 +12439,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::travellingdollar.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::travellingdollar.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view_holder = global::travellingdollar.Droid.Resource.Id.ghost_view_holder;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::travellingdollar.Droid.Resource.Id.group_divider;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::travellingdollar.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.homeAsUp = global::travellingdollar.Droid.Resource.Id.homeAsUp;
@@ -11958,6 +12477,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_background = global::travellingdollar.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column = global::travellingdollar.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::travellingdollar.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.off = global::travellingdollar.Droid.Resource.Id.off;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.on = global::travellingdollar.Droid.Resource.Id.on;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.outline = global::travellingdollar.Droid.Resource.Id.outline;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::travellingdollar.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parentPanel = global::travellingdollar.Droid.Resource.Id.parentPanel;
@@ -11970,6 +12491,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::travellingdollar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.save_overlay_view = global::travellingdollar.Droid.Resource.Id.save_overlay_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::travellingdollar.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::travellingdollar.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
@@ -11995,6 +12517,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::travellingdollar.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::travellingdollar.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::travellingdollar.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.sliding_tabs = global::travellingdollar.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::travellingdollar.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::travellingdollar.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::travellingdollar.Droid.Resource.Id.snackbar_text;
@@ -12012,6 +12535,11 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.submit_area = global::travellingdollar.Droid.Resource.Id.submit_area;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tabMode = global::travellingdollar.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -12028,6 +12556,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.title = global::travellingdollar.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::travellingdollar.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.title_template = global::travellingdollar.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.toolbar = global::travellingdollar.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::travellingdollar.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::travellingdollar.Droid.Resource.Id.topPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::travellingdollar.Droid.Resource.Id.touch_outside;
@@ -12036,6 +12565,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_position = global::travellingdollar.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::travellingdollar.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_transform = global::travellingdollar.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@unchecked = global::travellingdollar.Droid.Resource.Id.@unchecked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.uniform = global::travellingdollar.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.unlabeled = global::travellingdollar.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::travellingdollar.Droid.Resource.Id.up;
@@ -12059,6 +12589,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::travellingdollar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::travellingdollar.Droid.Resource.Integer.show_password_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_linear = global::travellingdollar.Droid.Resource.Interpolator.mtrl_linear;
@@ -12092,6 +12629,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::travellingdollar.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::travellingdollar.Droid.Resource.Layout.abc_tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::travellingdollar.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::travellingdollar.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::travellingdollar.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.design_layout_snackbar;
@@ -12106,6 +12644,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::travellingdollar.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::travellingdollar.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar_include = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar_include;
@@ -12130,6 +12670,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::travellingdollar.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::travellingdollar.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::travellingdollar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::travellingdollar.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::travellingdollar.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::travellingdollar.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -12361,6 +12903,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
@@ -12495,6 +13038,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
@@ -12627,6 +13172,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -12788,11 +13334,21 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textLocale = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -12866,14 +13422,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -13022,6 +13582,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::travellingdollar.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonCompat = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout;
@@ -13241,6 +13802,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView = global::travellingdollar.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_clipToPadding = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -13352,11 +13914,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textFontWeight = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontFamily = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textLocale = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -13405,6 +13970,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logo = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::travellingdollar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_menu = global::travellingdollar.Droid.Resource.Styleable.Toolbar_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -13446,6 +14012,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_slide_out_top = global::travellingdollar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_tooltip_enter = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_tooltip_exit = global::travellingdollar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::travellingdollar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::travellingdollar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_in = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::travellingdollar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::travellingdollar.Droid.Resource.Animation.design_snackbar_in;
@@ -13545,6 +14123,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNeutralButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarPositiveButtonStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarStyle = global::travellingdollar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.buttonCompat = global::travellingdollar.Droid.Resource.Attribute.buttonCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonGravity = global::travellingdollar.Droid.Resource.Attribute.buttonGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonIconDimen = global::travellingdollar.Droid.Resource.Attribute.buttonIconDimen;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonPanelSideLayout = global::travellingdollar.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -13639,7 +14218,15 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerHorizontal = global::travellingdollar.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerPadding = global::travellingdollar.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerVertical = global::travellingdollar.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableBottomCompat = global::travellingdollar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableEndCompat = global::travellingdollar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableLeftCompat = global::travellingdollar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableRightCompat = global::travellingdollar.Droid.Resource.Attribute.drawableRightCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawableSize = global::travellingdollar.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableStartCompat = global::travellingdollar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTint = global::travellingdollar.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTintMode = global::travellingdollar.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTopCompat = global::travellingdollar.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawerArrowStyle = global::travellingdollar.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropdownListPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropDownListViewStyle = global::travellingdollar.Droid.Resource.Attribute.dropDownListViewStyle;
@@ -13746,6 +14333,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineHeight = global::travellingdollar.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineSpacing = global::travellingdollar.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listDividerAlertDialog = global::travellingdollar.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listItemLayout = global::travellingdollar.Droid.Resource.Attribute.listItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listLayout = global::travellingdollar.Droid.Resource.Attribute.listLayout;
@@ -13754,8 +14343,10 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::travellingdollar.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::travellingdollar.Droid.Resource.Attribute.logoDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonStyle = global::travellingdollar.Droid.Resource.Attribute.materialButtonStyle;
@@ -13797,6 +14388,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyle = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleIndicator = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleSmall = global::travellingdollar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Resource.Attribute.recyclerViewStyle = global::travellingdollar.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.reverseLayout = global::travellingdollar.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.rippleColor = global::travellingdollar.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimAnimationDuration = global::travellingdollar.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -13898,6 +14490,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorSearchUrl = global::travellingdollar.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textEndPadding = global::travellingdollar.Droid.Resource.Attribute.textEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textInputStyle = global::travellingdollar.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textLocale = global::travellingdollar.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textStartPadding = global::travellingdollar.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::travellingdollar.Droid.Resource.Attribute.theme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::travellingdollar.Droid.Resource.Attribute.thickness;
@@ -14122,6 +14715,9 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_top_material = global::travellingdollar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_floating_window_z = global::travellingdollar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_large_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_small_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_padding_horizontal_material = global::travellingdollar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_panel_menu_list_width = global::travellingdollar.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_progress_bar_height_material = global::travellingdollar.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -14297,11 +14893,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_action_bar_item_background_material = global::travellingdollar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_borderless_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_colored_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_default_mtrl_shape = global::travellingdollar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_material = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_material_anim = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::travellingdollar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -14379,6 +14977,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_vector_test = global::travellingdollar.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_hide_password = global::travellingdollar.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_show_password = global::travellingdollar.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_checked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_off_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_mtrl = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::travellingdollar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_bottom_navigation_item_background = global::travellingdollar.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_fab_background = global::travellingdollar.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility = global::travellingdollar.Droid.Resource.Drawable.design_ic_visibility;
@@ -14405,6 +15011,39 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::travellingdollar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::travellingdollar.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_action_clickable_span = global::travellingdollar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_0 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_1 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_10 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_11 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_12 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_13 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_14 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_15 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_16 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_17 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_18 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_19 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_2 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_20 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_21 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_22 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_23 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_24 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_25 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_26 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_27 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_28 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_29 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_3 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_30 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_31 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_4 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_5 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_6 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_7 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_8 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_9 = global::travellingdollar.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Forms.Platform.Resource.Id.action0 = global::travellingdollar.Droid.Resource.Id.action0;
 			global::Xamarin.Forms.Platform.Resource.Id.actions = global::travellingdollar.Droid.Resource.Id.actions;
 			global::Xamarin.Forms.Platform.Resource.Id.action_bar = global::travellingdollar.Droid.Resource.Id.action_bar;
@@ -14443,6 +15082,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.center_horizontal = global::travellingdollar.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.center_vertical = global::travellingdollar.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::travellingdollar.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::travellingdollar.Droid.Resource.Id.@checked;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::travellingdollar.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_horizontal = global::travellingdollar.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_vertical = global::travellingdollar.Droid.Resource.Id.clip_vertical;
@@ -14461,6 +15101,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.design_menu_item_action_area_stub = global::travellingdollar.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.Forms.Platform.Resource.Id.design_menu_item_text = global::travellingdollar.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.Forms.Platform.Resource.Id.design_navigation_view = global::travellingdollar.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Platform.Resource.Id.dialog_button = global::travellingdollar.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Resource.Id.disableHome = global::travellingdollar.Droid.Resource.Id.disableHome;
 			global::Xamarin.Forms.Platform.Resource.Id.edit_query = global::travellingdollar.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Resource.Id.end = global::travellingdollar.Droid.Resource.Id.end;
@@ -14480,6 +15121,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::travellingdollar.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::travellingdollar.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::travellingdollar.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Platform.Resource.Id.ghost_view_holder = global::travellingdollar.Droid.Resource.Id.ghost_view_holder;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::travellingdollar.Droid.Resource.Id.group_divider;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::travellingdollar.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Resource.Id.homeAsUp = global::travellingdollar.Droid.Resource.Id.homeAsUp;
@@ -14517,6 +15159,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.notification_background = global::travellingdollar.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column = global::travellingdollar.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column_container = global::travellingdollar.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Platform.Resource.Id.off = global::travellingdollar.Droid.Resource.Id.off;
+			global::Xamarin.Forms.Platform.Resource.Id.on = global::travellingdollar.Droid.Resource.Id.on;
 			global::Xamarin.Forms.Platform.Resource.Id.outline = global::travellingdollar.Droid.Resource.Id.outline;
 			global::Xamarin.Forms.Platform.Resource.Id.parallax = global::travellingdollar.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Resource.Id.parentPanel = global::travellingdollar.Droid.Resource.Id.parentPanel;
@@ -14529,6 +15173,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.right_icon = global::travellingdollar.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.right_side = global::travellingdollar.Droid.Resource.Id.right_side;
 			global::Xamarin.Forms.Platform.Resource.Id.save_non_transition_alpha = global::travellingdollar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Platform.Resource.Id.save_overlay_view = global::travellingdollar.Droid.Resource.Id.save_overlay_view;
 			global::Xamarin.Forms.Platform.Resource.Id.screen = global::travellingdollar.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Resource.Id.scroll = global::travellingdollar.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollable = global::travellingdollar.Droid.Resource.Id.scrollable;
@@ -14554,6 +15199,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.showCustom = global::travellingdollar.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Resource.Id.showHome = global::travellingdollar.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Resource.Id.showTitle = global::travellingdollar.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Resource.Id.sliding_tabs = global::travellingdollar.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Resource.Id.smallLabel = global::travellingdollar.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_action = global::travellingdollar.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_text = global::travellingdollar.Droid.Resource.Id.snackbar_text;
@@ -14571,6 +15217,11 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.submit_area = global::travellingdollar.Droid.Resource.Id.submit_area;
 			global::Xamarin.Forms.Platform.Resource.Id.SYM = global::travellingdollar.Droid.Resource.Id.SYM;
 			global::Xamarin.Forms.Platform.Resource.Id.tabMode = global::travellingdollar.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_actions = global::travellingdollar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_clickable_spans = global::travellingdollar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_heading = global::travellingdollar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_pane_title = global::travellingdollar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_screen_reader_focusable = global::travellingdollar.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_transition_group = global::travellingdollar.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::travellingdollar.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -14587,6 +15238,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.title = global::travellingdollar.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Resource.Id.titleDividerNoCustom = global::travellingdollar.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.Forms.Platform.Resource.Id.title_template = global::travellingdollar.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Platform.Resource.Id.toolbar = global::travellingdollar.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Resource.Id.top = global::travellingdollar.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Resource.Id.topPanel = global::travellingdollar.Droid.Resource.Id.topPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.touch_outside = global::travellingdollar.Droid.Resource.Id.touch_outside;
@@ -14595,6 +15247,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.transition_position = global::travellingdollar.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_scene_layoutid_cache = global::travellingdollar.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_transform = global::travellingdollar.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Platform.Resource.Id.@unchecked = global::travellingdollar.Droid.Resource.Id.@unchecked;
 			global::Xamarin.Forms.Platform.Resource.Id.uniform = global::travellingdollar.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Resource.Id.unlabeled = global::travellingdollar.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Resource.Id.up = global::travellingdollar.Droid.Resource.Id.up;
@@ -14618,6 +15271,13 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::travellingdollar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.show_password_duration = global::travellingdollar.Droid.Resource.Integer.show_password_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.status_bar_notification_info_maxnum = global::travellingdollar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::travellingdollar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::travellingdollar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_linear_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_slow_in = global::travellingdollar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_linear = global::travellingdollar.Droid.Resource.Interpolator.mtrl_linear;
@@ -14651,6 +15311,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::travellingdollar.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::travellingdollar.Droid.Resource.Layout.abc_tooltip;
 			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::travellingdollar.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::travellingdollar.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::travellingdollar.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::travellingdollar.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.design_layout_snackbar;
@@ -14665,6 +15326,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::travellingdollar.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_password_icon = global::travellingdollar.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::travellingdollar.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::travellingdollar.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar_include = global::travellingdollar.Droid.Resource.Layout.mtrl_layout_snackbar_include;
@@ -14689,6 +15352,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::travellingdollar.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::travellingdollar.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::travellingdollar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::travellingdollar.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::travellingdollar.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description = global::travellingdollar.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_menu_overflow_description = global::travellingdollar.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -14920,6 +15585,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
@@ -15054,6 +15720,8 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Light = global::travellingdollar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
@@ -15186,6 +15854,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_TextView = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::travellingdollar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -15347,11 +16016,21 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTint = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTintMode = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontFamily = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_lineHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_textLocale = global::travellingdollar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_actionBarDivider = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -15425,14 +16104,18 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelBackground = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::travellingdollar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -15581,6 +16264,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_color = global::travellingdollar.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton = global::travellingdollar.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonCompat = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTint = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTintMode = global::travellingdollar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout = global::travellingdollar.Droid.Resource.Styleable.CoordinatorLayout;
@@ -15800,6 +16484,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::travellingdollar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView = global::travellingdollar.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_clipToPadding = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_descendantFocusability = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_orientation = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_fastScrollEnabled = global::travellingdollar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -15911,11 +16596,14 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColor = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColorLink = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textFontWeight = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textSize = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textStyle = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_typeface = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontFamily = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontVariationSettings = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textLocale = global::travellingdollar.Droid.Resource.Styleable.TextAppearance_textLocale;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint = global::travellingdollar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -15964,6 +16652,7 @@ namespace travellingdollar.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logo = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logo;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logoDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_maxButtonHeight = global::travellingdollar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_menu = global::travellingdollar.Droid.Resource.Styleable.Toolbar_menu;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationContentDescription = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationIcon = global::travellingdollar.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_popupTheme = global::travellingdollar.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -20360,6 +21049,9 @@ namespace travellingdollar.Droid
 			// aapt resource value: 0x7F07018A
 			public const int tooltip_frame_light = 2131165578;
 			
+			// aapt resource value: 0x7F07018B
+			public const int videoad = 2131165579;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -21640,148 +22332,154 @@ namespace travellingdollar.Droid
 			public const int design_text_input_password_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FlyoutContent = 2131427376;
+			public const int FallbackTabbarDoNotUse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int layout_maps = 2131427377;
+			public const int FallbackToolbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int loading = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int loadingimage = 2131427379;
+			public const int layout_maps = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int loadingprogress = 2131427380;
+			public const int loading = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int MaterialPickerTextInput = 2131427381;
+			public const int loadingimage = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_cast_dialog = 2131427382;
+			public const int loadingprogress = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_cast_group_item = 2131427383;
+			public const int MaterialPickerTextInput = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_cast_group_volume_item = 2131427384;
+			public const int mr_cast_dialog = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_cast_header_item = 2131427385;
+			public const int mr_cast_group_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_cast_media_metadata = 2131427386;
+			public const int mr_cast_group_volume_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_cast_route_item = 2131427387;
+			public const int mr_cast_header_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_chooser_dialog = 2131427388;
+			public const int mr_cast_media_metadata = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_chooser_list_item = 2131427389;
+			public const int mr_cast_route_item = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mr_controller_material_dialog_b = 2131427390;
+			public const int mr_chooser_dialog = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mr_controller_volume_item = 2131427391;
+			public const int mr_chooser_list_item = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mr_picker_dialog = 2131427392;
+			public const int mr_controller_material_dialog_b = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mr_picker_header_item = 2131427393;
+			public const int mr_controller_volume_item = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mr_picker_route_item = 2131427394;
+			public const int mr_picker_dialog = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mr_playback_control = 2131427395;
+			public const int mr_picker_header_item = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mr_volume_control = 2131427396;
+			public const int mr_picker_route_item = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_layout_snackbar = 2131427397;
+			public const int mr_playback_control = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_layout_snackbar_include = 2131427398;
+			public const int mr_volume_control = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_action = 2131427399;
+			public const int mtrl_layout_snackbar = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_action_tombstone = 2131427400;
+			public const int mtrl_layout_snackbar_include = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_media_action = 2131427401;
+			public const int notification_action = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_media_cancel_action = 2131427402;
+			public const int notification_action_tombstone = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_big_media = 2131427403;
+			public const int notification_media_action = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_big_media_custom = 2131427404;
+			public const int notification_media_cancel_action = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int notification_template_big_media_narrow = 2131427405;
+			public const int notification_template_big_media = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_template_big_media_narrow_custom = 2131427406;
+			public const int notification_template_big_media_custom = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int notification_template_custom_big = 2131427407;
+			public const int notification_template_big_media_narrow = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int notification_template_icon_group = 2131427408;
+			public const int notification_template_big_media_narrow_custom = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int notification_template_lines_media = 2131427409;
+			public const int notification_template_custom_big = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int notification_template_media = 2131427410;
+			public const int notification_template_icon_group = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int notification_template_media_custom = 2131427411;
+			public const int notification_template_lines_media = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int notification_template_part_chronometer = 2131427412;
+			public const int notification_template_media = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int notification_template_part_time = 2131427413;
+			public const int notification_template_media_custom = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int RootLayout = 2131427414;
+			public const int notification_template_part_chronometer = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int select_dialog_item_material = 2131427415;
+			public const int notification_template_part_time = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int select_dialog_multichoice_material = 2131427416;
+			public const int RootLayout = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int select_dialog_singlechoice_material = 2131427417;
+			public const int select_dialog_item_material = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int sfcomboBox_layout = 2131427418;
+			public const int select_dialog_multichoice_material = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int ShellContent = 2131427419;
+			public const int select_dialog_singlechoice_material = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int support_simple_spinner_dropdown_item = 2131427420;
+			public const int sfcomboBox_layout = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int Tabbar = 2131427421;
+			public const int ShellContent = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int TextInputLayoutFilledBox = 2131427422;
+			public const int support_simple_spinner_dropdown_item = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int Toolbar = 2131427423;
+			public const int Tabbar = 2131427423;
+			
+			// aapt resource value: 0x7F0B0060
+			public const int TextInputLayoutFilledBox = 2131427424;
+			
+			// aapt resource value: 0x7F0B0061
+			public const int Toolbar = 2131427425;
 			
 			static Layout()
 			{
