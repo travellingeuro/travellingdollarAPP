@@ -5,6 +5,7 @@
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
+		<integer>2</integer>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
@@ -28,7 +29,7 @@
 		<string>Montserrat-SemiBold.ttf</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>13.0</string>
+	<string>12.4</string>
 	<key>CFBundleDisplayName</key>
 	<string>travellingdollar</string>
 	<key>CFBundleIdentifier</key>
@@ -70,8 +71,10 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Needed to pick a photo of a note serial number. This will not be shared.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>2.0</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>

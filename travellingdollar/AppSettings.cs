@@ -9,14 +9,14 @@ namespace travellingdollar
         const string defaultIosAdsKey = "ca-app-pub-9800707284712065~1360337106";
 
         //google ads id's
-        const string defaultAndroidAds = "ca-app-pub-3940256099942544/6300978111"; //sample
-        const string defaultIosAds = "ca-app-pub-3940256099942544/2934735716"; //sample
-        const string defaultSampleAndroidAds = "ca-app-pub-3940256099942544/6300978111"; //sample
-        const string defaultSampleIosAds = "ca-app-pub-3940256099942544/2934735716"; //sample
-        const string defaultInterstitialAndroid = "ca-app-pub-3940256099942544/8691691433"; //sample
-        const string defaultInterstitialiOS = "ca-app-pub-3940256099942544/5135589807"; //sample
-        const string defaultVideoAndroid = "ca-app-pub-3940256099942544/5224354917"; //sample
-        const string defaultVideoiOS = "ca-app-pub-3940256099942544/1712485313"; //sample
+        const string defaultAndroidAds = "ca-app-pub-9800707284712065/9386150877";
+        const string defaultIosAds = "ca-app-pub-9800707284712065/9781752609"; 
+
+        const string defaultInterstitialAndroid = "ca-app-pub-9800707284712065/7950938799"; 
+        const string defaultInterstitialiOS = "ca-app-pub-9800707284712065/6012538147"; 
+
+        const string defaultVideoAndroid = "ca-app-pub-9800707284712065/7383306043"; 
+        const string defaultVideoiOS = "ca-app-pub-9800707284712065/8537779079"; 
 
 
 
@@ -93,17 +93,6 @@ namespace travellingdollar
             set => Preferences.Set(nameof(IosAds), value);
         }
 
-        public static string SampleAndroidAds
-        {
-            get => Preferences.Get(nameof(SampleAndroidAds), defaultSampleAndroidAds);
-            set => Preferences.Set(nameof(SampleAndroidAds), value);
-        }
-
-        public static string SampleIosAds
-        {
-            get => Preferences.Get(nameof(SampleIosAds), defaultSampleIosAds);
-            set => Preferences.Set(nameof(SampleIosAds), value);
-        }
 
         public static string InterstitialAndroid
         {
