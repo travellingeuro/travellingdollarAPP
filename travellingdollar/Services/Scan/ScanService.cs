@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using travellingdollar.Services.Dialogs;
+using Xamarin.Essentials;
 
 namespace travellingdollar.Services.Scan
 {
@@ -79,6 +80,8 @@ namespace travellingdollar.Services.Scan
 
             if (CrossMedia.Current.IsCameraAvailable && CrossMedia.Current.IsTakePhotoSupported)
             {
+                
+
                 var photo = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                 {
                     SaveToAlbum = true,

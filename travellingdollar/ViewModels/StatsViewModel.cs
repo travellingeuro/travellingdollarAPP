@@ -75,7 +75,8 @@ namespace travellingdollar.ViewModels
         {
             this.dialogService = dialogService;
             this.searchNote = searchNote;
-        
+            IsBusy = true;
+
         }
 
 
@@ -122,7 +123,7 @@ namespace travellingdollar.ViewModels
             }
             finally
             {
-                IsBusy = false;
+               // IsBusy = false;
             }
 
         }
@@ -188,11 +189,9 @@ namespace travellingdollar.ViewModels
                             Name = upload.Name
                         };
                         ViewMarkers.Add(marker);                
-                    }  
-                                     
+                    }                                       
             }
-            
-                      
+            IsBusy = false;
         }
 
 
@@ -206,6 +205,7 @@ namespace travellingdollar.ViewModels
             Uploads = Task.Run(GetUploads).Result;
             SetInitialMarkers();
             TotalNotes = Uploads.Select(s => s.SerialNumber).Distinct().Count();
+            IsBusy = false;
         }
 
 
