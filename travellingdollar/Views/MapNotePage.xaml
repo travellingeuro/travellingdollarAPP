@@ -14,9 +14,9 @@
     <ContentPage.Resources>
         <ResourceDictionary>
 
-            <Color x:Key="BackgroundColor">White</Color>
+            <Color x:Key="BackgroundColor">white</Color>
             <Style x:Key="background" TargetType="StackLayout">
-                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="white"/>
             </Style>
             
             <DataTemplate x:Key="markerTemplate">
@@ -107,7 +107,7 @@
         <ControlTemplate>
             <StackLayout  Spacing="0" BackgroundColor="{DynamicResource Gray-White}">
                 <!--<controls:MTads />-->
-                <ads:MTAdView IsVisible="true" VerticalOptions="End" ComplyFamilyPolicies="True" PersonalizedAds="True">
+                <ads:MTAdView IsVisible="true"  ComplyFamilyPolicies="True" PersonalizedAds="True">
                     <ads:MTAdView.HeightRequest>
                         <x:OnIdiom>
                             <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
@@ -155,19 +155,24 @@
 
 
     <ContentPage.Content>
-        <Grid
-            HorizontalOptions="Fill"
-            VerticalOptions="Fill">
+        <Grid 
+            
+            VerticalOptions="Fill" HorizontalOptions="Fill" 
+            BackgroundColor="white"
+            >
             <Grid.RowDefinitions>
-                <RowDefinition Height="9*" />
+                <RowDefinition Height="300" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
- 
+
+
+            
             <maps:SfMaps x:Name="sfmap" 
-                         BackgroundColor="White" 
                          Grid.Row="0"
-                         EnableZooming="True" MaxZoom="10"
+                         BackgroundColor="White"                         
+                         EnableZooming="True"
+                         MaxZoom="10"
                          EnablePanning="True">
                 <maps:SfMaps.Layers>
                     <maps:ImageryLayer x:Name="map" 
@@ -194,8 +199,8 @@
                     </maps:ImageryLayer>
                 </maps:SfMaps.Layers>
             </maps:SfMaps>
-
-            <Grid Grid.Row="1">
+            
+            <Grid Grid.Row="1" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />

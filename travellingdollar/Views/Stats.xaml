@@ -106,7 +106,7 @@
             <StackLayout Spacing="0" BackgroundColor="{DynamicResource Gray-White}">
 
                 <!--<controls:MTads />-->
-                <ads:MTAdView IsVisible="true" VerticalOptions="StartAndExpand" ComplyFamilyPolicies="True" PersonalizedAds="True">
+                <ads:MTAdView IsVisible="true"  ComplyFamilyPolicies="True" PersonalizedAds="True">
                     <ads:MTAdView.HeightRequest>
                         <x:OnIdiom>
                             <x:OnIdiom.Phone>50</x:OnIdiom.Phone>
@@ -155,7 +155,7 @@
             HorizontalOptions="Fill"
             VerticalOptions="Fill">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="15*" />
                 
             </Grid.RowDefinitions>
