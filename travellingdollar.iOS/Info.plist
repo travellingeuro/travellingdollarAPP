@@ -70,11 +70,11 @@
 	<string>Needed to pick a photo of a note serial number. This will not be shared.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Needed to pick a photo of a note serial number. This will not be shared.</string>
-	<key>CFBundleShortVersionString</key>
-	<string>3.0</string>
-	<key>CFBundleVersion</key>
-	<string>3.0</string>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.0</string>
+	<key>CFBundleVersion</key>
+	<string>4.0</string>
 </dict>
 </plist>
