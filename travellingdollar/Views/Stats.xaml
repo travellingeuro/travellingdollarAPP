@@ -156,7 +156,7 @@
             VerticalOptions="Fill">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="15*" />
+                <RowDefinition Height="350" />
                 
             </Grid.RowDefinitions>
 

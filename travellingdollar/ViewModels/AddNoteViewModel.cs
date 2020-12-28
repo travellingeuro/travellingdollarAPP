@@ -513,8 +513,23 @@ namespace travellingdollar.ViewModels
                 }
                 else //Note doesn't exist.
                 {
-                    var letter = SerialNumber[0];
-                    var Mints = await addnoteService.GetMintCode(letter.ToString());
+                    //store the first two characters of the bill
+                    var first = SerialNumber.ToUpper().ToCharArray().ElementAt(0);
+                    var second = SerialNumber.ToUpper().ToCharArray().ElementAt(1);
+                    var Mints = new List<Mints>();
+                    
+                    //Case starts with one letter only (it's a 1 or 2 dollar bill)
+                    if (char.IsLetter(first) && char.IsDigit(second))
+                    {
+                        Mints = await addnoteService.GetMintCode(first.ToString()); 
+                    }
+
+                    //Case starts with two letters. Use the second
+                    if (char.IsLetter(first) && char.IsLetter(second))
+                    {
+                        Mints = await addnoteService.GetMintCode(second.ToString());
+                    }
+                                        
                     if (Mints.Any())
                     {
                         var Id = Mints.FirstOrDefault().Id;
