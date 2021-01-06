@@ -135,13 +135,15 @@
                         Margin="0,15"                       
                         HorizontalOptions="CenterAndExpand" />
 
-                    <Label                         
+                    <!--Disable below untill map issue is fixed-->
+                    <!--<Label                         
                         Style="{StaticResource IconLabelStyle}"
                         Text="{StaticResource Center}">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="searcha_Clicked"/>
                         </Label.GestureRecognizers>
-                    </Label>
+                    </Label>-->
+                    <!--Disable above until map issue is fixed-->
 
 
                 </StackLayout>
@@ -155,11 +157,45 @@
 
 
     <ContentPage.Content>
-        <Grid 
-            
+     <!--start temp label-->
+        <StackLayout Orientation="Vertical">
+        <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="There is an issue with maps in Apple, please follow" />
+                    <Span Text=" Here"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding HiperlinkCommand}"
+                                          />
+                        </Span.GestureRecognizers>
+                    </Span>
+                    <Span Text=" Thanks!!" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <buttons:SfButton Grid.Column="0"
+                        Text="{StaticResource Back}"
+                        x:Name="backbutton"
+                        HorizontalOptions="Center"
+                        Margin="0,4,0,0"
+                        Style="{StaticResource IconButtonStyle}"
+                        CornerRadius="4"
+                        Command="{Binding HomeCommand}"/>
+        </StackLayout>
+
+
+        <!--End temp label-->
+
+
+        <!--Disable below  until ios map issues is fixed        
+        
+        <Grid             
             VerticalOptions="Fill" HorizontalOptions="Fill" 
-            BackgroundColor="white"
-            >
+            BackgroundColor="white">
             <Grid.RowDefinitions>
                 <RowDefinition Height="300" />
                 <RowDefinition Height="*" />
@@ -241,6 +277,7 @@
                     IsVisible="{Binding IsBusy}" />
 
         </Grid>
+        Disable above  until ios map issues is fixed-->
     </ContentPage.Content>
 
 </ContentPage>

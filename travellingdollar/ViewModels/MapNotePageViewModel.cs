@@ -11,6 +11,7 @@ using System.Runtime.InteropServices.ComTypes;
 using travellingdollar.Controls;
 using travellingdollar.Helper;
 using travellingdollar.Models;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
@@ -25,6 +26,8 @@ namespace travellingdollar.ViewModels
 		//Commands
 		public DelegateCommand HomeCommand { get; set; }
 		public DelegateCommand SearchCommand { get; set; }
+		public DelegateCommand HiperlinkCommand { get; set; }
+
 
 		//Properties
 		private List<Uploads> uploads;
@@ -61,10 +64,18 @@ namespace travellingdollar.ViewModels
 			this.NavigationService = navigationService;
 			this.HomeCommand = new DelegateCommand(GoBack);
 			this.SearchCommand = new DelegateCommand(GoSearch);
+			this.HiperlinkCommand = new DelegateCommand(GoWeb);
 
 		}
 
-		private async void GoSearch()
+        private async void GoWeb()
+        {
+			var link = $"http://www.travellingdollar.com/#{SerialNumber}";
+            await Launcher.OpenAsync(link);
+			
+		}
+
+        private async void GoSearch()
 		{
 			await NavigationService.NavigateAsync("../../SearchNotePage");
 		}

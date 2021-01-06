@@ -17,6 +17,7 @@ using travellingdollar.Helper;
 using travellingdollar.Models;
 using travellingdollar.Services.Dialogs;
 using travellingdollar.Services.SearchNote;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
@@ -28,6 +29,9 @@ namespace travellingdollar.ViewModels
         //Services
         public IDialogService dialogService { get; private set; }
         public ISearchNote searchNote { get; private set; }
+
+        //Commands
+        public DelegateCommand HiperlinkCommand { get; set; }
 
         //Properties
         private List<Uploads> uploads;
@@ -75,10 +79,16 @@ namespace travellingdollar.ViewModels
         {
             this.dialogService = dialogService;
             this.searchNote = searchNote;
+            this.HiperlinkCommand = new DelegateCommand(GoWeb);
             IsBusy = true;
 
         }
 
+        private async void GoWeb()
+        {
+            var link = $"http://www.travellingdollar.com";
+            await Launcher.OpenAsync(link);
+        }
 
         private async Task<List<Uploads>> GetUploads()
         {

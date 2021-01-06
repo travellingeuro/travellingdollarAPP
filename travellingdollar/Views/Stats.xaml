@@ -151,7 +151,63 @@
     </ContentPage.ControlTemplate>
 
     <ContentPage.Content>
-        <Grid 
+        <StackLayout Orientation="Vertical" Padding="20,0">
+            <border:SfBorder
+                        BorderColor="{Binding Source={x:Reference ValuePicker}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=3}"
+                        Style="{StaticResource BusinessFormBorderStyle}">
+                <combobox:SfComboBox
+                                x:Name="ValuePicker"  
+                        SelectedItem="{Binding NoteValue, Mode=TwoWay}"
+                        SelectionChanged="ValuePicker_SelectionChanged"
+                                Style="{StaticResource ComboBoxStyle}"
+                                Watermark="Value"
+                                VerticalOptions="CenterAndExpand">
+                    <combobox:SfComboBox.ComboBoxSource>
+                        <ListCollection:List x:TypeArguments="x:String">
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>5</x:String>
+                            <x:String>10</x:String>
+                            <x:String>20</x:String>
+                            <x:String>50</x:String>
+                            <x:String>100</x:String>
+                        </ListCollection:List>
+                    </combobox:SfComboBox.ComboBoxSource>
+                    <combobox:SfComboBox.DropDownButtonSettings>
+                        <combobox:DropDownButtonSettings>
+                            <combobox:DropDownButtonSettings.View>
+                                <Label
+                                        FontFamily="{StaticResource FontIcons}"
+                                        FontSize="25"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{StaticResource DropDownButtonIcon}"
+                                        TextColor="{DynamicResource Gray-600}"
+                                        VerticalTextAlignment="Center" />
+                            </combobox:DropDownButtonSettings.View>
+                        </combobox:DropDownButtonSettings>
+                    </combobox:SfComboBox.DropDownButtonSettings>
+                </combobox:SfComboBox>
+            </border:SfBorder>
+            <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="There is an issue with maps in Apple, please continue on the web" />
+                        <Span Text=" Here"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding HiperlinkCommand}"
+                                          />
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span Text=" Thanks!!" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+        <!--Removed below until map issue is fixed-->
+        <!--<Grid 
             HorizontalOptions="Fill"
             VerticalOptions="Fill">
             <Grid.RowDefinitions>
@@ -234,7 +290,8 @@
                     IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" />
 
 
-        </Grid>
+        </Grid>-->
+        <!--Remove above until map issue is fixed-->
         
         
     </ContentPage.Content>

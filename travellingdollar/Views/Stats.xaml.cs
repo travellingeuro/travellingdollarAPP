@@ -41,35 +41,37 @@ namespace travellingdollar.Views
             ValuePicker_SelectionChanged(new object(), new Syncfusion.XForms.ComboBox.SelectionChangedEventArgs());
         }
 
+        #region valuepicker
         private void ValuePicker_SelectionChanged(object sender, Syncfusion.XForms.ComboBox.SelectionChangedEventArgs e)
         {
 
-            var latitudes = new List<double>();
-            var longitudes = new List<double>();
+            //var latitudes = new List<double>();
+            //var longitudes = new List<double>();
 
 
-            if (map.Markers != null)
-            {
-                foreach (MapMarker marker in map.Markers)
-                {
-                    latitudes.Add(double.Parse(marker.Latitude, System.Globalization.NumberFormatInfo.CurrentInfo ));
-                    longitudes.Add(double.Parse(marker.Longitude, System.Globalization.NumberFormatInfo.CurrentInfo));
-                }
-            }
+            //if (map.Markers != null)
+            //{
+            //    foreach (MapMarker marker in map.Markers)
+            //    {
+            //        latitudes.Add(double.Parse(marker.Latitude, System.Globalization.NumberFormatInfo.CurrentInfo));
+            //        longitudes.Add(double.Parse(marker.Longitude, System.Globalization.NumberFormatInfo.CurrentInfo));
+            //    }
+            //}
 
-            double lowestLat = latitudes.Min();
-            double highestLat = latitudes.Max();
-            double lowestLong = longitudes.Min();
-            double highestLong = longitudes.Max();
-            double finalLat = (lowestLat + highestLat) / 2;
-            double finalLong = (lowestLong + highestLong) / 2;
-            double distance = DistanceCalculator.GeoCodeCalc.CalcDistance(lowestLat, lowestLong, highestLat, highestLong, DistanceCalculator.GeoCodeCalcMeasurement.Kilometers);
+            //double lowestLat = latitudes.Min();
+            //double highestLat = latitudes.Max();
+            //double lowestLong = longitudes.Min();
+            //double highestLong = longitudes.Max();
+            //double finalLat = (lowestLat + highestLat) / 2;
+            //double finalLong = (lowestLong + highestLong) / 2;
+            //double distance = DistanceCalculator.GeoCodeCalc.CalcDistance(lowestLat, lowestLong, highestLat, highestLong, DistanceCalculator.GeoCodeCalcMeasurement.Kilometers);
 
-            map.GeoCoordinates = new Point(finalLat, finalLong);
-            map.Radius = distance;
-            map.DistanceType = DistanceType.KiloMeter;
+            //map.GeoCoordinates = new Point(finalLat, finalLong);
+            //map.Radius = distance;
+            //map.DistanceType = DistanceType.KiloMeter;
 
         }
+        #endregion valuepicker
 
     }
 }
