@@ -12,6 +12,7 @@ namespace travellingdollar.Controls
         public DateTime Date { get; set; }
         public string Name { get; set; }
         public ImageSource Image { get; set; }
+        public string Serial { get; set; }
     }
 
 }

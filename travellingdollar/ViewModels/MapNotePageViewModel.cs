@@ -99,6 +99,7 @@ namespace travellingdollar.ViewModels
                         Date = upload.UploadDate,
                         Image = imagepicker.Imagepicker(upload.Value),
 						Name=upload.Name,
+						Serial=upload.SerialNumber
                     };
                     Pins.Add(marker);
                     Points.Add(new Point((double)upload.Latitude,(double)upload.Longitude));                    

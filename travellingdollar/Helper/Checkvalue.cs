@@ -45,7 +45,7 @@ namespace travellingdollar.Helper
             //}
             if (!Isnumbervalid(serial))
             {
-                Message = "Some numbers end with a strar synbol. DO NOT include it";
+                Message = "Some numbers end with a star symbol. DO NOT include it";
                 return false;
             }
             return true;
@@ -71,7 +71,7 @@ namespace travellingdollar.Helper
                                             {   
                                             {'A',1996},{'B',1999 } ,{'C',2001},{'D',2003}, {'E',2004},{'F',2003},
                                             {'G',2004},{'I',2006},{'J',2009},{'K',2006},{'L',2009},
-                                            {'M',2013},{'N',2017} 
+                                            {'M',2013},{'N',2017} ,{'O', 2017},{'P', 2017}, {'Q', 2017}
                                             };
             //store the first two characters of the bill
             var first = serial.ToUpper().ToCharArray().ElementAt(0);

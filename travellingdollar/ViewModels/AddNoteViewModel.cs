@@ -388,6 +388,8 @@ namespace travellingdollar.ViewModels
             {
                 //check for validity of value
                 Checkvalue checkvalue = new Checkvalue();
+                //strip serial number from spaces
+                SerialNumber = String.Concat(SerialNumber.Where(c => !Char.IsWhiteSpace(c)));
                 bool result = checkvalue.Checknumber(SerialNumber);
                 //check for validity of email
                 Emailvalidator emailvalidator = new Emailvalidator();
@@ -823,6 +825,11 @@ namespace travellingdollar.ViewModels
  
             //check parameters for "SerialNumber"
             SerialNumber = (string)parameters["SerialNumber"] ?? null;
+
+            if (String.IsNullOrEmpty(SerialNumber))
+            {
+                SerialNumber = String.Concat(SerialNumber.Where(c => !Char.IsWhiteSpace(c)));
+            }
          
         }
     }

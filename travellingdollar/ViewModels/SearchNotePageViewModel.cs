@@ -107,6 +107,8 @@ namespace travellingdollar.ViewModels
         {
 
             Checkvalue checkvalue = new Checkvalue();
+            //strip serial number from spaces
+            SerialNumber = String.Concat(SerialNumber.Where(c => !Char.IsWhiteSpace(c)));
             var result = checkvalue.Checknumber(SerialNumber);
             if (!string.IsNullOrEmpty(SerialNumber) && result == true)
             {

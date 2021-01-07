@@ -49,6 +49,13 @@
                         </border:SfBorder>
 
                         <StackLayout Grid.Column="1"   Margin="6,5" HorizontalOptions="Start" Spacing="2" VerticalOptions="FillAndExpand" WidthRequest="200">
+                            <Label Text="{Binding Serial}"                           
+                               TextColor="{DynamicResource Gray-800}" 
+                               FontFamily="{StaticResource Montserrat-Medium}" 
+                               LineBreakMode="WordWrap"                                 
+                               FontSize="{DynamicResource Ten}"
+                               LineHeight="{OnPlatform Android=1.25,Default=-1}" 
+                               HorizontalOptions="Center"/>
                             <Label Text="{Binding Date, StringFormat='{0:dd MMMM, yyyy}'}"                            
                                TextColor="{DynamicResource Gray-800}" 
                                FontFamily="{StaticResource Montserrat-Medium}" 

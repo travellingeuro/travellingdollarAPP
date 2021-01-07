@@ -28,7 +28,7 @@ namespace travellingdollar
         const string defaultCognitiveServiceKey = "27a4453a28ab4df8af50d22fed37bcc0";
         const string defaultGooglePlacesApiKey = "AIzaSyAA5f_usWVL2jbldPd4KDKFFZIrMuKYD6U";
         //Syncfusion
-        const string defaultSyncfucionKey = "MzM0MDU4QDMxMzgyZTMzMmUzMGx4cDZKUlNtMDY2K3k4WnBCTlhJWTBiUTNDTFJDcDhieXNRcDZ5NHRIbUU9";
+        const string defaultSyncfucionKey = "Mzc5NDg1QDMxMzgyZTM0MmUzMGlMRFQ1OG9jL01sVEtJS3RkQXFGMC9LQ0VzdEZsOENtRDR4VnU0a2k2aGs9";
 
         //APP Center
         const string defaultAPPCenterANDROIDKey = "fb3f5766-2b1d-420c-9d88-bba2cdf18545;ios=e66422fd-f819-4acd-b6da-3b2ec73fd9c8";

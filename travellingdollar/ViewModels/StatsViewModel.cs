@@ -154,7 +154,8 @@ namespace travellingdollar.ViewModels
                         Address = upload.Address,
                         Date = upload.UploadDate,
                         Image = imagepicker.Imagepicker(upload.Value),
-                        Name = upload.Name
+                        Name = upload.Name,
+                        Serial=upload.SerialNumber                        
                     };
 
                     ViewMarkers.Add(marker);
