@@ -16,80 +16,80 @@ using Xamarin.Forms.Internals;
 
 namespace travellingdollar.ViewModels
 {
-	[Preserve(AllMembers = true)]
-	public class MapNotePageViewModel : BindableBase, INavigationAware
-	{
-		//Services
-		public INavigationService NavigationService { get; private set; }
+    [Preserve(AllMembers = true)]
+    public class MapNotePageViewModel : BindableBase, INavigationAware
+    {
+        //Services
+        public INavigationService NavigationService { get; private set; }
 
-		//Commands
-		public DelegateCommand HomeCommand { get; set; }
-		public DelegateCommand SearchCommand { get; set; }
+        //Commands
+        public DelegateCommand HomeCommand { get; set; }
+        public DelegateCommand SearchCommand { get; set; }
 
-		//Properties
-		private List<Uploads> uploads;
-		public List<Uploads> Uploads
-		{
-			get { return uploads; }
-			set { SetProperty(ref uploads, value); }
-		}
+        //Properties
+        private List<Uploads> uploads;
+        public List<Uploads> Uploads
+        {
+            get { return uploads; }
+            set { SetProperty(ref uploads, value); }
+        }
 
-		private string serialnumber;
-		public string SerialNumber
-		{
-			get { return serialnumber; }
-			set { SetProperty(ref serialnumber, value); }
-		}
-
-
-		private ObservableCollection<MapMarker> pins = new ObservableCollection<MapMarker>();
-		public ObservableCollection<MapMarker> Pins
-		{
-			get { return pins; }
-			set { SetProperty(ref pins, value); }
-		}
-		private ObservableCollection<Point> points = new ObservableCollection<Point>();
-		public ObservableCollection<Point>  Points
-		{
-			get { return points; }
-			set { SetProperty(ref points, value); }
-		}
+        private string serialnumber;
+        public string SerialNumber
+        {
+            get { return serialnumber; }
+            set { SetProperty(ref serialnumber, value); }
+        }
 
 
-		public MapNotePageViewModel(INavigationService navigationService)
-		{
-			this.NavigationService = navigationService;
-			this.HomeCommand = new DelegateCommand(GoBack);
-			this.SearchCommand = new DelegateCommand(GoSearch);
+        private ObservableCollection<MapMarker> pins = new ObservableCollection<MapMarker>();
+        public ObservableCollection<MapMarker> Pins
+        {
+            get { return pins; }
+            set { SetProperty(ref pins, value); }
+        }
 
-		}
+        private ObservableCollection<Point> points = new ObservableCollection<Point>();
+        public ObservableCollection<Point> Points
+        {
+            get { return points; }
+            set { SetProperty(ref points, value); }
+        }
 
-		private async void GoSearch()
-		{
-			await NavigationService.NavigateAsync("../../SearchNotePage");
-		}
+        public MapNotePageViewModel(INavigationService navigationService)
+        {
+            this.NavigationService = navigationService;
+            this.HomeCommand = new DelegateCommand(GoBack);
+            this.SearchCommand = new DelegateCommand(GoSearch);
 
-		private async void GoBack()
-		{
-			await NavigationService.GoBackAsync();
-		}
+        }
 
-		private void AddPins()
-		{
-			if (Pins.Any())
-			{
-				Pins.Clear();
-			}
-			if (Points.Any())
-			{
-				Points.Clear();
-			}
-			if (Uploads != null)
-			{
-				var imagepicker = new ImagePicker();
+        private async void GoSearch()
+        {
+            await NavigationService.NavigateAsync("../../SearchNotePage");
+        }
 
-				foreach (Uploads upload in Uploads)
-				{
+        private async void GoBack()
+        {
+            await NavigationService.GoBackAsync();
+        }
+
+        private void AddPins()
+        {
+            if (Pins.Any())
+            {
+                Pins.Clear();
+            }
+            if (Points.Any())
+            {
+                Points.Clear();
+            }
+            if (Uploads != null)
+            {
+                var imagepicker = new ImagePicker();
+
+                foreach (Uploads upload in Uploads)
+                {
                     var marker = new CustomMarker
                     {
                         Latitude = upload.Latitude.ToString(),
@@ -98,28 +98,28 @@ namespace travellingdollar.ViewModels
                         Address = upload.Address,
                         Date = upload.UploadDate,
                         Image = imagepicker.Imagepicker(upload.Value),
-						Name=upload.Name,
-						Serial=upload.SerialNumber
+                        Name = upload.Name,
+                        Serial = upload.SerialNumber
                     };
                     Pins.Add(marker);
-                    Points.Add(new Point((double)upload.Latitude,(double)upload.Longitude));                    
-				}
-			}
-		}
+                    Points.Add(new Point((double)upload.Latitude, (double)upload.Longitude));
+                }
+            }
+        }
 
-		public void OnNavigatedFrom(INavigationParameters parameters)
-		{
-			parameters.Add("Uploads", Uploads);
-		}
+        public void OnNavigatedFrom(INavigationParameters parameters)
+        {
+            parameters.Add("Uploads", Uploads);
+        }
 
-		public void OnNavigatedTo(INavigationParameters parameters)
-		{
-			Uploads = (List<Uploads>)parameters["Uploads"] ?? null;
-			if (Uploads.Any())
-			{
-				SerialNumber = Uploads.FirstOrDefault().SerialNumber;
-				AddPins();
-			}
-		}
-	}
+        public void OnNavigatedTo(INavigationParameters parameters)
+        {
+            Uploads = (List<Uploads>)parameters["Uploads"] ?? null;
+            if (Uploads.Any())
+            {
+                SerialNumber = Uploads.FirstOrDefault().SerialNumber;
+                AddPins();
+            }
+        }
+    }
 }

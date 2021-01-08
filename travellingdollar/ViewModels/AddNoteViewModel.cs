@@ -826,7 +826,7 @@ namespace travellingdollar.ViewModels
             //check parameters for "SerialNumber"
             SerialNumber = (string)parameters["SerialNumber"] ?? null;
 
-            if (String.IsNullOrEmpty(SerialNumber))
+            if (!string.IsNullOrEmpty(SerialNumber))
             {
                 SerialNumber = String.Concat(SerialNumber.Where(c => !Char.IsWhiteSpace(c)));
             }

@@ -137,15 +137,10 @@ namespace travellingdollar.ViewModels
                     await DialogService.ShowAlertAsync(Resources.NotExisiting, Resources.ErrorTitle, Resources.DialogOk);
                     var navparam = new NavigationParameters { { "SerialNumber", SerialNumber } };
                     await NavigationService.NavigateAsync("AddNote", navparam);
-
                 }
-
-
-
             }
             catch (HttpRequestException httpEx)
             {
-
                 Debug.WriteLine($"[Booking Where Step] Error retrieving data: {httpEx}");
 
                 if (!string.IsNullOrEmpty(httpEx.Message))
@@ -159,10 +154,8 @@ namespace travellingdollar.ViewModels
             }
             catch (ConnectivityException cex)
             {
-
                 Debug.WriteLine($"[Booking Where Step] Connectivity Error: {cex}");
                 await DialogService.ShowAlertAsync("There is no Internet conection, try again later.", "Error", "Ok");
-
             }
             catch (Exception ex)
             {
@@ -191,7 +184,6 @@ namespace travellingdollar.ViewModels
             {
                 parameters.Add("Uploads", Uploads);
             }
-
         }
 
         public void OnNavigatedTo(INavigationParameters parameters)
@@ -199,8 +191,5 @@ namespace travellingdollar.ViewModels
             Uploads = (List<Uploads>)parameters["Uploads"] ?? null;
 
         }
-
-
-
     }
 }

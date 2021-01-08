@@ -36,12 +36,14 @@ namespace travellingdollar.ViewModels
             get { return uploads; }
             set { SetProperty(ref uploads, value); }
         }
+
         private bool isbusy;
         public bool IsBusy
         {
             get { return isbusy; }
             set { SetProperty(ref isbusy, value); }
         }
+
         private object notevalue;
         public object NoteValue
         {
@@ -54,7 +56,6 @@ namespace travellingdollar.ViewModels
             }
         }
 
-
         private int totalnotes;
         public int TotalNotes
         {
@@ -63,12 +64,12 @@ namespace travellingdollar.ViewModels
         }
 
         private ObservableCollection<MapMarker> viewmarkers = new ObservableCollection<MapMarker>();
+
         public ObservableCollection<MapMarker> ViewMarkers
         {
             get { return viewmarkers; }
             set { SetProperty(ref viewmarkers, value); }
         }
-
 
         //ctr
         public StatsViewModel(IDialogService dialogService, ISearchNote searchNote)
@@ -76,9 +77,7 @@ namespace travellingdollar.ViewModels
             this.dialogService = dialogService;
             this.searchNote = searchNote;
             IsBusy = true;
-
         }
-
 
         private async Task<List<Uploads>> GetUploads()
         {
@@ -97,7 +96,7 @@ namespace travellingdollar.ViewModels
 
                 if (!string.IsNullOrEmpty(httpEx.Message))
                 {
-                    await   dialogService.ShowAlertAsync(
+                    await dialogService.ShowAlertAsync(
                         string.Format(Resources.HttpRequestExceptionMessage, httpEx.Message),
                         Resources.HttpRequestExceptionTitle,
                         Resources.DialogOk);
@@ -123,14 +122,14 @@ namespace travellingdollar.ViewModels
             }
             finally
             {
-               // IsBusy = false;
+                // IsBusy = false;
             }
 
         }
 
         private void SetMarkers()
         {
-            if(NoteValue!=null && Uploads != null)
+            if (NoteValue != null && Uploads != null)
             {
                 var imagepicker = new ImagePicker();
                 int.TryParse((string)NoteValue, out int value);
@@ -155,42 +154,40 @@ namespace travellingdollar.ViewModels
                         Date = upload.UploadDate,
                         Image = imagepicker.Imagepicker(upload.Value),
                         Name = upload.Name,
-                        Serial=upload.SerialNumber                        
+                        Serial = upload.SerialNumber
                     };
-
                     ViewMarkers.Add(marker);
                 }
             }
-
         }
 
         private void SetInitialMarkers()
         {
-           
             if (Uploads != null)
             {
                 var imagepicker = new ImagePicker();
-               
+
                 //show all notes markers in the map
                 //empty ViewMarkers
                 if (ViewMarkers.Any())
+                {
+                    ViewMarkers.Clear();
+                }
+                foreach (var upload in Uploads)
+                {
+                    var marker = new CustomMarker
                     {
-                        ViewMarkers.Clear();
-                    }
-                    foreach (var upload in Uploads)
-                    {
-                        var marker = new CustomMarker
-                        {
-                            Latitude = upload.Latitude.ToString(),
-                            Longitude = upload.Longitude.ToString(),
-                            Label = upload.Comments,
-                            Address = upload.Address,
-                            Date = upload.UploadDate,
-                            Image = imagepicker.Imagepicker(upload.Value),
-                            Name = upload.Name
-                        };
-                        ViewMarkers.Add(marker);                
-                    }                                       
+                        Latitude = upload.Latitude.ToString(),
+                        Longitude = upload.Longitude.ToString(),
+                        Label = upload.Comments,
+                        Address = upload.Address,
+                        Date = upload.UploadDate,
+                        Image = imagepicker.Imagepicker(upload.Value),
+                        Name = upload.Name,
+                        Serial = upload.SerialNumber
+                    };
+                    ViewMarkers.Add(marker);
+                }
             }
             IsBusy = false;
         }
@@ -208,7 +205,5 @@ namespace travellingdollar.ViewModels
             TotalNotes = Uploads.Select(s => s.SerialNumber).Distinct().Count();
             IsBusy = false;
         }
-
-
     }
 }

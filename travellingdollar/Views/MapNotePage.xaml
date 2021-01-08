@@ -111,8 +111,8 @@
         </OnPlatform>
     </ContentPage.Padding>
 
-    <ContentPage.ControlTemplate>
-        <ControlTemplate>
+    <ContentPage.Content>
+        <StackLayout>
             <StackLayout  Spacing="0" BackgroundColor="{DynamicResource Gray-White}">
                 <!--<controls:MTads />-->
                 <ads:MTAdView IsVisible="true"  ComplyFamilyPolicies="True" PersonalizedAds="True">
@@ -151,23 +151,14 @@
                         </Label.GestureRecognizers>
                     </Label>
 
-
                 </StackLayout>
-
                 <BoxView HeightRequest="1" BackgroundColor="{DynamicResource Gray-200}"/>
-                <ContentPresenter />
-
+               
             </StackLayout>
-        </ControlTemplate>
-    </ContentPage.ControlTemplate>
-
-
-    <ContentPage.Content>
-        <Grid 
-            
-            VerticalOptions="Fill" HorizontalOptions="Fill" 
-            BackgroundColor="white"
-            >
+            <Grid 
+                VerticalOptions="Fill" 
+                HorizontalOptions="Fill"
+                BackgroundColor="white">
             <Grid.RowDefinitions>
                 <RowDefinition Height="300" />
                 <RowDefinition Height="*" />
@@ -249,6 +240,7 @@
                     IsVisible="{Binding IsBusy}" />
 
         </Grid>
+        </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>
