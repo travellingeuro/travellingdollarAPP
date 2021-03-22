@@ -70,6 +70,15 @@ namespace travellingdollar {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Serial number cannot be empty.
+        /// </summary>
+        internal static string EmptyEntry {
+            get {
+                return ResourceManager.GetString("EmptyEntry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to OOOPS!.
         /// </summary>
         internal static string ErrorTitle {
@@ -124,6 +133,15 @@ namespace travellingdollar {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Some numbers end with a star symbol. DO NOT include it.
+        /// </summary>
+        internal static string NoIncludeStar {
+            get {
+                return ResourceManager.GetString("NoIncludeStar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Couldn&apos;t retrieve any result, please try again or type manually.
         /// </summary>
         internal static string NoMatch {
@@ -151,6 +169,24 @@ namespace travellingdollar {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Serial Number must begin with a letter.
+        /// </summary>
+        internal static string NotbeginwithLetter {
+            get {
+                return ResourceManager.GetString("NotbeginwithLetter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Serial Number must be 10 or 11 characters long and it must begin with a letter.
+        /// </summary>
+        internal static string NotCorrectEntry {
+            get {
+                return ResourceManager.GetString("NotCorrectEntry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No Track of that bill, tell us about it!.
         /// </summary>
         internal static string NotExisiting {
@@ -174,6 +210,15 @@ namespace travellingdollar {
         internal static string NoToken {
             get {
                 return ResourceManager.GetString("NoToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not a valid initial letter.
+        /// </summary>
+        internal static string NotValidLetter {
+            get {
+                return ResourceManager.GetString("NotValidLetter", resourceCulture);
             }
         }
         

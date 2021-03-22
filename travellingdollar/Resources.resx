@@ -120,6 +120,9 @@
   <data name="DialogOk" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="EmptyEntry" xml:space="preserve">
+    <value>Serial number cannot be empty</value>
+  </data>
   <data name="ErrorTitle" xml:space="preserve">
     <value>OOOPS!</value>
   </data>
@@ -138,6 +141,9 @@
   <data name="NoEmail" xml:space="preserve">
     <value>Email can't be empty</value>
   </data>
+  <data name="NoIncludeStar" xml:space="preserve">
+    <value>Some numbers end with a star symbol. DO NOT include it</value>
+  </data>
   <data name="NoMatch" xml:space="preserve">
     <value>Couldn't retrieve any result, please try again or type manually</value>
   </data>
@@ -147,6 +153,12 @@
   <data name="NoPicture" xml:space="preserve">
     <value>No picture was found, please try again</value>
   </data>
+  <data name="NotbeginwithLetter" xml:space="preserve">
+    <value>Serial Number must begin with a letter</value>
+  </data>
+  <data name="NotCorrectEntry" xml:space="preserve">
+    <value>Serial Number must be 10 or 11 characters long and it must begin with a letter</value>
+  </data>
   <data name="NotExisiting" xml:space="preserve">
     <value>No Track of that bill, tell us about it!</value>
   </data>
@@ -155,6 +167,9 @@
   </data>
   <data name="NoToken" xml:space="preserve">
     <value>Access code can't be empty</value>
+  </data>
+  <data name="NotValidLetter" xml:space="preserve">
+    <value>Not a valid initial letter</value>
   </data>
   <data name="TwillioError" xml:space="preserve">
     <value>Twilio Error 21612 - https://www.twilio.com/docs/errors/21612</value>

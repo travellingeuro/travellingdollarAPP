@@ -73,8 +73,8 @@
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.0</string>
+	<string>6.0</string>
 	<key>CFBundleVersion</key>
-	<string>4.0</string>
+	<string>6.0</string>
 </dict>
 </plist>

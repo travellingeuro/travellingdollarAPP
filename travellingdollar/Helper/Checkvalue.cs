@@ -13,27 +13,27 @@ namespace travellingdollar.Helper
 
         public bool Checknumber(string serial)
         {
-            if (serial is null)
+            if (string.IsNullOrEmpty(serial))
             {
-                Message = "Serial number cannot be empty";
+                Message = Resources.EmptyEntry;
                 return false;
             }
 
             if (serial.Length != 11 && serial.Length!=10)
             {
-                Message = "Serial Number must be 10 or 11 characters long and it must begin with a letter";
+                Message = Resources.NotCorrectEntry;
                 return false;
             }
 
             if (!Checkfirstletter(serial))
             {
-                Message = "Serial Number must begin with a letter";
+                Message = Resources.NotbeginwithLetter;
                 return false;
             }
 
             if (!Isfirstlettervalid(serial.ToUpper()))
             {
-                Message = "Not a valid initial letter";
+                Message = Resources.NotValidLetter;
                 return false;
             }
 
@@ -45,7 +45,7 @@ namespace travellingdollar.Helper
             //}
             if (!Isnumbervalid(serial))
             {
-                Message = "Some numbers end with a star symbol. DO NOT include it";
+                Message = Resources.NoIncludeStar;
                 return false;
             }
             return true;
