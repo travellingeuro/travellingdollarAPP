@@ -34,13 +34,13 @@ namespace travellingdollar.ViewModels
 
         private async void NavigateTotatsViewPageMethod()
         {
-            await navigationService.NavigateAsync("Stats"); 
+            await navigationService.NavigateAsync("Stats");
         }
 
         private async void NavigateToAddNoteMethod()
         {
-                await navigationService.NavigateAsync("AddNote");         
-            
+            await navigationService.NavigateAsync("AddNote");
+
         }
 
         private async void NavigateToSearchNotePageMethod()
